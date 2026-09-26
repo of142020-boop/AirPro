@@ -160,11 +160,6 @@ header {
 
 /* Animations */
 
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
 
 .animate-fade-up { opacity: 1; transform: none; animation: none; }
 
