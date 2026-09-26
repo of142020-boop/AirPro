@@ -1,0 +1,200 @@
+---
+export interface Props {
+	title?: string;
+	description?: string;
+}
+
+const { 
+	title = "إير برو | AirPro - خبراء تركيب الشفاطات المركزية وأنظمة التهوية", 
+	description = "إير برو (AirPro) متخصصة في تأسيس وتركيب الشفاطات المركزية، فني تركيب شفاط مطبخ مخفي للفلل، تركيب هود مطاعم، وصيانة البلاورات والمداخن بأعلى معايير الجودة." 
+} = Astro.props;
+
+import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<!-- FontAwesome Icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<header style="background: #ffffff; position: sticky; top: 0; left: 0; right: 0; z-index: 1000; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: all 0.3s ease;">
+			<a href="/" class="logo" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+				<div style="width: 40px; height: 40px; background: rgba(30, 58, 138, 0.1); color: var(--secondary); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;"><i class="fa-solid fa-fan"></i></div>
+				<span style="color: var(--secondary); font-weight: 900; font-size: 1.6rem;">AirPro</span>
+			</a>
+			
+			<ul class="nav-links" style="display: flex; list-style: none; gap: 30px; margin: 0; align-items: center;">
+				<li><a href="/" style="color: var(--primary); font-weight: 700; text-decoration: none; border-bottom: 2px solid var(--primary); padding-bottom: 5px;">الرئيسية</a></li>
+				<li><a href="/services" style="color: var(--text); font-weight: 600; text-decoration: none;">الخدمات</a></li>
+				<li><a href="/blog" style="color: var(--text); font-weight: 600; text-decoration: none;">المدونة</a></li>
+				<li><a href="/portfolio" style="color: var(--text); font-weight: 600; text-decoration: none;">سابقة الأعمال</a></li>
+				<li><a href="/about" style="color: var(--text); font-weight: 600; text-decoration: none;">من نحن</a></li>
+				<li><a href="/contact" style="color: var(--text); font-weight: 600; text-decoration: none;">اتصل بنا</a></li>
+			</ul>
+
+			<div style="display: flex; align-items: center; gap: 15px;">
+				<a href="#contact" class="btn header-btn" style="background: var(--secondary); color: #fff; padding: 10px 25px; font-size: 1rem; border-radius: 8px; font-weight: 700; text-decoration: none;">احجز الآن</a>
+				<button class="mobile-menu-btn" aria-label="Toggle Menu" style="background: none; border: none;">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="var(--text)"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+				</button>
+			</div>
+		</header>
+		<main>
+			<slot />
+		</main>
+
+		<!-- Professional Footer -->
+		<footer style="background: rgba(15, 23, 42, 0.95); border-top: 1px solid var(--glass-border); color: rgba(255,255,255,0.7); padding: 80px 5% 30px; margin-top: auto;">
+			<div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-bottom: 50px;">
+				
+				<!-- Brand & About -->
+				<div>
+					<a href="/" style="display: flex; align-items: center; gap: 5px; text-decoration: none; margin-bottom: 20px;">
+						<svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M12 2.02c-5.51 0-9.98 4.47-9.98 9.98s4.47 9.98 9.98 9.98 9.98-4.47 9.98-9.98S17.51 2.02 12 2.02zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm2.46-12.7l-4.14 7.15c-.17.3-.5.45-.82.45-.16 0-.32-.04-.46-.12-.48-.28-.64-.9-.36-1.38l4.14-7.15c.28-.48.9-.64 1.38-.36.48.28.64.9.36 1.38-.03.05-.06.09-.1.13z"></path></svg>
+						<span style="color: #fff; font-weight: 900; font-size: 1.8rem;">Air</span><span style="color: #94a3b8; font-weight: 400; font-size: 1.8rem;">Pro</span>
+					</a>
+					<p style="line-height: 1.8; font-size: 1rem; margin-bottom: 20px;">
+						الشركة الهندسية الأولى المعتمدة في مصر لتأسيس وتركيب وصيانة أنظمة التهوية. سواء كنت تبحث عن افضل شفاط مطبخ قوي، تركيب شفاطات مطابخ، شفاط مطبخ مدخنة، أو حتى تصليح شفاطات مطابخ وشفاطات مركزيه للمطاعم بأعلى جودة مطابقة للدفاع المدني.
+					</p>
+				</div>
+
+				<!-- Quick Links -->
+				<div>
+					<h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 20px; font-weight: 700;">روابط سريعة</h4>
+					<ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 10px;">
+						<li><a href="/" style="color: inherit; text-decoration: none; transition: color 0.3s ease;">الرئيسية</a></li>
+						<li><a href="/portfolio" style="color: inherit; text-decoration: none; transition: color 0.3s ease;">سابقة الأعمال</a></li>
+						<li><a href="/blog" style="color: inherit; text-decoration: none; transition: color 0.3s ease;">المدونة ودليل التركيب</a></li>
+						<li><a href="/about" style="color: inherit; text-decoration: none; transition: color 0.3s ease;">من نحن</a></li>
+					</ul>
+				</div>
+
+				<!-- Services Links -->
+				<div>
+					<h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 20px; font-weight: 700;">خدماتنا الهندسية</h4>
+					<ul style="list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+						<li><a href="/services/built-in-hood" style="color: inherit; text-decoration: none; transition: color 0.3s ease;">تركيب شفاط بلت ان</a></li>
+						<li><a href="/services/home-hood" style="color: inherit; text-decoration: none; transition: color 0.3s ease;">تأسيس شفاط المطبخ</a></li>
+						<li><a href="/services/restaurants-hood" style="color: inherit; text-decoration: none; transition: color 0.3s ease;">مداخن المطاعم</a></li>
+						<li><a href="/services/ac-ducts" style="color: inherit; text-decoration: none; transition: color 0.3s ease;">دكت التكييف المركزي</a></li>
+						<li><a href="/services/toshiba-hoods" style="color: inherit; text-decoration: none; transition: color 0.3s ease;">شفاط توشيبا</a></li>
+						<li><a href="/services/bathroom-fans" style="color: inherit; text-decoration: none; transition: color 0.3s ease;">شفاطات حمامات</a></li>
+						<li><a href="/services/industrial-blowers" style="color: inherit; text-decoration: none; transition: color 0.3s ease;">بلاورات صناعية</a></li>
+					</ul>
+				</div>
+
+				<!-- Contact Info -->
+				<div>
+					<h4 style="color: #fff; font-size: 1.2rem; margin-bottom: 20px; font-weight: 700;">تواصل معنا</h4>
+					<ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 15px;">
+						<li style="display: flex; align-items: center; gap: 10px;">
+							<span style="color: var(--primary); font-size: 1.2rem;"><i class="fa-solid fa-location-dot"></i></span> القاهرة، جمهورية مصر العربية
+						</li>
+						<li style="display: flex; align-items: center; gap: 10px;">
+							<span style="color: var(--primary); font-size: 1.2rem;"><i class="fa-solid fa-phone"></i></span> <a href="tel:01101219418" style="color: inherit; text-decoration: none; direction: ltr;">+20 110 121 9418</a>
+						</li>
+						<li style="display: flex; align-items: center; gap: 10px;">
+							<span style="color: var(--primary); font-size: 1.2rem;"><i class="fa-brands fa-whatsapp"></i></span> <a href="https://wa.me/201101219418" style="color: inherit; text-decoration: none;">واتساب (دعم على مدار الساعة)</a>
+						</li>
+						<li style="display: flex; align-items: center; gap: 10px;">
+							<span style="color: var(--primary); font-size: 1.2rem;"><i class="fa-solid fa-envelope"></i></span> info@airproeg.com
+						</li>
+					</ul>
+				</div>
+
+			</div>
+			
+			<div style="max-width: 1200px; margin: 0 auto; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; font-size: 0.9rem;">
+				<p style="margin: 0;">جميع الحقوق محفوظة &copy; 2026 <strong>إير برو (AirPro)</strong>.</p>
+				<div style="display: flex; gap: 15px;">
+					<a href="#" style="color: inherit; text-decoration: none;">سياسة الخصوصية</a>
+					<a href="#" style="color: inherit; text-decoration: none;">الشروط والأحكام</a>
+				</div>
+			</div>
+		</footer>
+
+		<style>
+			/* Add simple hover effect for footer links globally */
+			footer a:hover {
+				color: #fff !important;
+			}
+
+			.mobile-menu-btn {
+				display: none;
+				background: none;
+				border: none;
+				cursor: pointer;
+			}
+
+			@media (max-width: 768px) {
+				.mobile-menu-btn {
+					display: block;
+				}
+				.header-btn {
+					display: none !important;
+				}
+				.nav-links {
+					position: absolute;
+					top: 70px;
+					left: 0;
+					right: 0;
+					background: var(--card-bg);
+					backdrop-filter: blur(12px);
+					flex-direction: column;
+					padding: 20px;
+					gap: 15px;
+					border-bottom: 1px solid var(--glass-border);
+					box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+					transform: translateY(-150%);
+					opacity: 0;
+					transition: all 0.3s ease;
+					pointer-events: none;
+				}
+				.nav-links.mobile-active {
+					transform: translateY(0);
+					opacity: 1;
+					pointer-events: auto;
+				}
+			}
+		</style>
+
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				// Mobile Menu Toggle
+				const mobileBtn = document.querySelector('.mobile-menu-btn');
+				const navLinks = document.querySelector('.nav-links');
+				if (mobileBtn && navLinks) {
+					mobileBtn.addEventListener('click', () => {
+						navLinks.classList.toggle('mobile-active');
+					});
+				}
+
+				// Scroll Reveals
+				const reveals = document.querySelectorAll('.reveal');
+				
+				const observer = new IntersectionObserver((entries) => {
+					entries.forEach((entry) => {
+						if (entry.isIntersecting) {
+							entry.target.classList.add('active');
+						}
+					});
+				}, {
+					threshold: 0.1,
+					rootMargin: "0px 0px -50px 0px"
+				});
+
+				reveals.forEach((reveal) => {
+					observer.observe(reveal);
+				});
+			});
+		</script>
+	</body>
+</html>

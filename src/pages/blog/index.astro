@@ -1,0 +1,55 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="مدونة إير برو | نصائح تهوية، تركيب وصيانة الشفاطات" description="اكتشف مقالات ونصائح هندسية من خبراء إير برو حول طريقة تركيب شفاط المطبخ، صيانة الأعطال، وحلول التهوية لضمان بيئة صحية خالية من الدخان.">
+	<!-- Blog Hub Hero -->
+	<section style="padding: 150px 20px 80px; background: linear-gradient(135deg, var(--background) 0%, rgba(14, 165, 233, 0.05) 100%); text-align: center;">
+		<div class="animate-fade-up">
+			<span style="color: var(--secondary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">المدونة والمقالات</span>
+			<h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 900; color: var(--primary-dark); margin: 15px 0;">
+				دليل التهوية الشامل
+			</h1>
+			<p style="color: var(--text-muted); font-size: 1.2rem; max-width: 700px; margin: 0 auto;">
+				نشاركك خبراتنا الهندسية في طرق تركيب وصيانة الشفاطات المنزلية والمطاعم لضمان بيئة صحية خالية من الأدخنة والروائح.
+			</p>
+		</div>
+	</section>
+
+	<!-- Blog Cards -->
+	<section class="section" style="padding-top: 40px; padding-bottom: 80px;">
+		<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px;">
+			
+			<!-- Article 1 -->
+			<div class="glass-card reveal" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+				<div style="height: 200px; background: url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=2070') center/cover;"></div>
+				<div style="padding: 25px; flex: 1; display: flex; flex-direction: column;">
+					<span style="color: var(--secondary); font-size: 0.9rem; font-weight: 600; margin-bottom: 10px;">دليل شامل</span>
+					<h3 style="font-size: 1.4rem; color: var(--primary-dark); margin-bottom: 15px; line-height: 1.5;">
+						طريقة تركيب شفاط المطبخ بالصور (خطوة بخطوة)
+					</h3>
+					<p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 25px; flex: 1;">
+						تعرف على الطريقة الصحيحة لتركيب شفاط المطبخ على الشباك أو الحائط، وما هي الأدوات المطلوبة لضمان عدم حدوث اهتزازات مزعجة...
+					</p>
+					<a href="/blog/how-to-install-kitchen-hood" style="display: inline-block; padding: 10px 20px; background: rgba(0,102,204,0.1); color: var(--primary); font-weight: 600; border-radius: 10px; text-decoration: none; text-align: center; transition: all 0.3s ease;">اقرأ المقال بالكامل ←</a>
+				</div>
+			</div>
+
+			<!-- Article 2 -->
+			<div class="glass-card reveal reveal-delay-1" style="padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+				<div style="height: 200px; background: url('https://images.unsplash.com/photo-1581092921461-7031e4bfb83e?q=80&w=2070') center/cover;"></div>
+				<div style="padding: 25px; flex: 1; display: flex; flex-direction: column;">
+					<span style="color: #f39c12; font-size: 0.9rem; font-weight: 600; margin-bottom: 10px;">صيانة وأعطال</span>
+					<h3 style="font-size: 1.4rem; color: var(--primary-dark); margin-bottom: 15px; line-height: 1.5;">
+						أشهر اعطال شفاط المطبخ وكيفية إصلاحها
+					</h3>
+					<p style="color: var(--text-muted); line-height: 1.8; margin-bottom: 25px; flex: 1;">
+						كيف تتعامل مع توقف موتور الشفاط فجأة؟ أو ضعف سحب الدخان؟ سنتحدث عن الصيانة الميكانيكية الصحيحة لإنقاذ مطبخك من التلف.
+					</p>
+					<a href="/blog/kitchen-hood-repairs" style="display: inline-block; padding: 10px 20px; background: rgba(243,156,18,0.1); color: #d35400; font-weight: 600; border-radius: 10px; text-decoration: none; text-align: center; transition: all 0.3s ease;">اقرأ المقال بالكامل ←</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+</Layout>

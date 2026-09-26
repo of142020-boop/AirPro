@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أداة إير برو - تحليل الكلمات المفتاحية المتقدم</title>
+    <style>
+        :root {
+            --primary: #0066cc;
+            --background: #f8fafc;
+            --text: #1e293b;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            width: 100%;
+            max-width: 700px;
+        }
+        h1 {
+            color: var(--primary);
+            text-align: center;
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+        p.subtitle {
+            text-align: center;
+            color: #64748b;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .notice {
+            background: #fffbeb;
+            color: #b45309;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+            border: 1px solid #fde68a;
+        }
+        .search-box {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 15px 20px;
+            font-size: 1.1rem;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        input[type="text"]:focus {
+            border-color: var(--primary);
+        }
+        button {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.1s;
+        }
+        button:hover {
+            background-color: #0052a3;
+        }
+        button:active {
+            transform: scale(0.98);
+        }
+        .results-container {
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            min-height: 200px;
+            background: #fafafa;
+        }
+        .results-container h3 {
+            margin-top: 0;
+            color: #475569;
+            font-size: 1.1rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            padding: 12px 15px;
+            background: white;
+            border: 1px solid var(--border);
+            margin-bottom: 10px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        li:hover {
+            transform: translateX(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border-color: var(--primary);
+        }
+        .keyword-text {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .keyword-text::before {
+            content: "🔍";
+            font-size: 0.9rem;
+        }
+        .popularity-meter {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+        .meter-high { color: #10b981; }
+        .meter-med { color: #f59e0b; }
+        .meter-low { color: #64748b; }
+        .loading {
+            text-align: center;
+            color: #64748b;
+            font-style: italic;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🚀 أداة إير برو المتقدمة للسيو</h1>
+        <p class="subtitle">استخراج الاقتراحات وترتيبها حسب قوة البحث (مؤشر جوجل)</p>
+        
+        <div class="notice">
+            <strong>ملاحظة تقنية هامة:</strong> الحصول على رقم (حجم البحث الدقيق) مثل "5000 بحث" يتطلب اشتراكاً مدفوعاً بآلاف الدولارات في أدوات مثل Ahrefs أو حسابات إعلانية نشطة في Google Ads. <br>لذلك، قمنا ببرمجة هذه الأداة لتقرأ <strong>"ترتيب جوجل"</strong> الحقيقي وتعطيك (مؤشر قوة) من الأعلى بحثاً إلى الأقل، وهو البديل المجاني الأفضل والأكثر دقة!
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="keywordInput" placeholder="أدخل الكلمة هنا (مثال: تركيب شفاط مطبخ)..." onkeypress="handleKeyPress(event)" />
+            <button onclick="performSearch()">تحليل قوي</button>
+        </div>
+
+        <div class="results-container">
+            <h3 id="resultsTitle">النتائج ستظهر هنا...</h3>
+            <div id="loading" class="loading">جاري تحليل البيانات وترتيب قوة البحث... ⏳</div>
+            <ul id="resultsList"></ul>
+        </div>
+    </div>
+
+    <script>
+        function handleGoogleResponse(data) {
+            const suggestions = data[1] || [];
+            const resultsList = document.getElementById('resultsList');
+            const resultsTitle = document.getElementById('resultsTitle');
+            const loading = document.getElementById('loading');
+            
+            loading.style.display = 'none';
+            resultsList.innerHTML = '';
+            
+            if (suggestions.length === 0) {
+                resultsTitle.textContent = '❌ لا توجد اقتراحات لهذه الكلمة.';
+                resultsTitle.style.color = '#ef4444';
+            } else {
+                resultsTitle.innerHTML = `<span>✅ الكلمات المتعلقة المقترحة:</span> <span>(${suggestions.length} كلمة)</span>`;
+                resultsTitle.style.color = '#10b981';
+                
+                // جوجل يعطينا الكلمات مرتبة من الأعلى بحثاً للأقل بحثاً
+                suggestions.forEach((s, index) => {
+                    const li = document.createElement('li');
+                    
+                    // حساب مؤشر القوة بناءً على ترتيب جوجل
+                    let meterText = '';
+                    let meterClass = '';
+                    if (index < 3) {
+                        meterText = 'حجم بحث عالي جداً 🔥';
+                        meterClass = 'meter-high';
+                    } else if (index < 7) {
+                        meterText = 'حجم بحث متوسط 📈';
+                        meterClass = 'meter-med';
+                    } else {
+                        meterText = 'حجم بحث منخفض (Long-tail) 🎯';
+                        meterClass = 'meter-low';
+                    }
+
+                    li.innerHTML = `
+                        <div class="keyword-text">${s}</div>
+                        <div class="popularity-meter ${meterClass}">${meterText}</div>
+                    `;
+                    resultsList.appendChild(li);
+                });
+            }
+        }
+
+        function performSearch() {
+            const query = document.getElementById('keywordInput').value.trim();
+            if (!query) return;
+
+            document.getElementById('resultsList').innerHTML = '';
+            document.getElementById('resultsTitle').textContent = 'جاري البحث...';
+            document.getElementById('resultsTitle').style.color = '#475569';
+            document.getElementById('loading').style.display = 'block';
+
+            const scriptId = 'google-jsonp';
+            const oldScript = document.getElementById(scriptId);
+            if (oldScript) {
+                oldScript.remove();
+            }
+
+            const script = document.createElement('script');
+            script.id = scriptId;
+            script.src = `https://suggestqueries.google.com/complete/search?client=chrome&hl=ar&gl=eg&q=${encodeURIComponent(query)}&callback=handleGoogleResponse`;
+            
+            document.body.appendChild(script);
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                performSearch();
+            }
+        }
+    </script>
+</body>
+</html>

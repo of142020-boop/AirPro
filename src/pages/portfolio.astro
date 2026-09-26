@@ -1,0 +1,80 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="سابقة أعمال إير برو | صور وفيديوهات تركيب شفاطات ومداخن" description="شاهد سابقة أعمال شركة إير برو في تأسيس شفاطات مطابخ الفلل، تفصيل وتركيب هود المطاعم والمصانع، والتخريم بالكور. خبرة هندسية وتطابق مع الدفاع المدني.">
+	<section style="padding: 150px 20px 80px; background: linear-gradient(135deg, var(--background) 0%, rgba(14, 165, 233, 0.05) 100%); text-align: center;">
+		<div class="animate-fade-up">
+			<span style="color: var(--secondary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">أعمالنا تتحدث عنا</span>
+			<h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 900; color: var(--primary-dark); margin: 15px 0;">
+				سابقة الأعمال
+			</h1>
+			<p style="color: var(--text-muted); font-size: 1.2rem; max-width: 700px; margin: 0 auto;">
+				نفخر بتنفيذ مشاريع عملاقة في قطاعات المطاعم، الفلل، والمصانع في جميع أنحاء مصر بأعلى معايير الجودة والهندسة.
+			</p>
+		</div>
+	</section>
+
+	<section class="section" style="padding-top: 40px; padding-bottom: 80px;">
+		
+		<!-- Filters (Visual only for now) -->
+		<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-bottom: 40px;">
+			<span style="padding: 8px 20px; background: var(--primary); color: white; border-radius: 50px; cursor: pointer; font-weight: 600;">الكل</span>
+			<span style="padding: 8px 20px; background: rgba(14, 165, 233, 0.1); color: var(--text); border-radius: 50px; cursor: pointer; border: 1px solid rgba(0,102,204,0.2);">المطاعم</span>
+			<span style="padding: 8px 20px; background: rgba(14, 165, 233, 0.1); color: var(--text); border-radius: 50px; cursor: pointer; border: 1px solid rgba(0,102,204,0.2);">الفلل والقصور</span>
+			<span style="padding: 8px 20px; background: rgba(14, 165, 233, 0.1); color: var(--text); border-radius: 50px; cursor: pointer; border: 1px solid rgba(0,102,204,0.2);">الصيانة والتنظيف</span>
+		</div>
+
+		<!-- Projects Grid -->
+		<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px;">
+			
+			<!-- Project 1 -->
+			<div class="glass-card reveal reveal-delay-1" style="padding: 0; overflow: hidden;">
+				<div style="height: 250px; background: url('https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2000') center/cover no-repeat; border-bottom: 1px solid var(--glass-border);"></div>
+				<div style="padding: 25px;">
+					<span style="color: var(--primary); font-size: 0.9rem; font-weight: 700;">قطاع المطاعم</span>
+					<h3 style="color: var(--primary-dark); font-size: 1.5rem; margin: 10px 0;">تركيب هود ستانلس 304 لمطعم مشويات</h3>
+					<p style="color: var(--text-muted); line-height: 1.6;">تم تصميم وتصنيع وتركيب هود متكامل مع دكت صاج وبلاور طرد مركزي، ومطابقة اشتراطات الدفاع المدني.</p>
+				</div>
+			</div>
+
+			<!-- Project 2 -->
+			<div class="glass-card reveal reveal-delay-2" style="padding: 0; overflow: hidden;">
+				<div style="height: 250px; background: url('https://images.unsplash.com/photo-1556910103-1c02745a872f?q=80&w=2000') center/cover no-repeat; border-bottom: 1px solid var(--glass-border);"></div>
+				<div style="padding: 25px;">
+					<span style="color: var(--primary); font-size: 0.9rem; font-weight: 700;">قطاع الفلل</span>
+					<h3 style="color: var(--primary-dark); font-size: 1.5rem; margin: 10px 0;">تأسيس مدخنة مطبخ مخفي لفيلا</h3>
+					<p style="color: var(--text-muted); line-height: 1.6;">تخريم بالخرسانة باستخدام الكور وتمديد مواسير الدكت المعزولة داخل الجبس بورد لتركيب شفاط بلت ان احترافي.</p>
+				</div>
+			</div>
+
+			<!-- Project 3 -->
+			<div class="glass-card reveal reveal-delay-3" style="padding: 0; overflow: hidden;">
+				<div style="height: 250px; background: url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2000') center/cover no-repeat; border-bottom: 1px solid var(--glass-border);"></div>
+				<div style="padding: 25px;">
+					<span style="color: var(--primary); font-size: 0.9rem; font-weight: 700;">قطاع المصانع</span>
+					<h3 style="color: var(--primary-dark); font-size: 1.5rem; margin: 10px 0;">تهوية مركزية وتركيب فريش اير</h3>
+					<p style="color: var(--text-muted); line-height: 1.6;">تأسيس نظام متكامل لتجديد هواء مصنع وسحب الدخان الثقيل والحرارة باستخدام مراوح سقفية جبارة.</p>
+				</div>
+			</div>
+
+			<!-- Project 4 -->
+			<div class="glass-card reveal reveal-delay-1" style="padding: 0; overflow: hidden;">
+				<div style="height: 250px; background: url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2000') center/cover no-repeat; border-bottom: 1px solid var(--glass-border);"></div>
+				<div style="padding: 25px;">
+					<span style="color: var(--primary); font-size: 0.9rem; font-weight: 700;">صيانة وتنظيف</span>
+					<h3 style="color: var(--primary-dark); font-size: 1.5rem; margin: 10px 0;">غسيل مدخنة فندق 5 نجوم</h3>
+					<p style="color: var(--text-muted); line-height: 1.6;">إزالة الشحوم المستعصية المتراكمة وتنظيف الفلاتر باستخدام مواد كيميائية آمنة، واستخراج شهادة نظافة معتمدة.</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section" style="text-align: center; padding-bottom: 80px;">
+		<div class="reveal" style="background: rgba(14, 165, 233, 0.05); padding: 40px; border-radius: 20px; border: 1px solid var(--glass-border);">
+			<h2 style="font-size: 2rem; color: var(--primary-dark); margin-bottom: 15px;">هل تريد أن يكون مشروعك القادم هنا؟</h2>
+			<a href="/contact" class="btn btn-primary" style="padding: 12px 35px; font-size: 1.1rem;">اتصل بنا لبدء العمل</a>
+		</div>
+	</section>
+</Layout>
