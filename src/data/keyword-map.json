@@ -1,0 +1,724 @@
+[
+  {
+    "path": "/",
+    "primary": "تركيب شفاطات",
+    "secondary": [
+      "تأسيس شفاطات",
+      "تركيب بلاورات",
+      "أنظمة التهوية"
+    ],
+    "title": "تركيب شفاطات وتأسيس بلاورات وأنظمة تهوية | إير برو",
+    "h1": "تركيب شفاطات وتأسيس البلاورات وأنظمة التهوية",
+    "description": "تركيب شفاطات المطابخ والحمامات، وتأسيس هود المطاعم والبلاورات والدكت. أرسل صور الموقع وبيانات الجهاز لتحديد نطاق التنفيذ وعرض السعر.",
+    "group": "all",
+    "intent": "commercial",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/home-hood",
+        "text": "تركيب شفاط مطبخ"
+      },
+      {
+        "href": "/services/central-exhaust",
+        "text": "شفاط مركزي"
+      },
+      {
+        "href": "/services/industrial-blowers",
+        "text": "شفاط صناعي"
+      },
+      {
+        "href": "/services/restaurants-hood",
+        "text": "هود مطاعم"
+      }
+    ]
+  },
+  {
+    "path": "/services",
+    "primary": "خدمات الشفاطات والتهوية",
+    "secondary": [
+      "تأسيس الشفاطات والبلاورات",
+      "تركيب أنظمة التهوية"
+    ],
+    "title": "خدمات الشفاطات والتهوية والبلاورات والدكت | إير برو",
+    "h1": "خدمات الشفاطات والتهوية: اختر نطاق مشروعك",
+    "description": "تصفح خدمات الشفاطات المنزلية والشفط المركزي والبلاورات وهود المطاعم والدكت والصيانة، وحدد الخدمة المناسبة قبل طلب المعاينة.",
+    "group": "all",
+    "intent": "navigation",
+    "priority": "P1",
+    "related": []
+  },
+  {
+    "path": "/services/home-hood",
+    "primary": "تركيب شفاط مطبخ",
+    "secondary": [
+      "تأسيس شفاط المطبخ",
+      "تركيب مدخنة شفاط مطبخ",
+      "فني تركيب شفاط المطبخ"
+    ],
+    "title": "تركيب شفاط مطبخ وتأسيس الدكت | اطلب عرض سعر",
+    "h1": "تركيب شفاط مطبخ وتأسيس الدكت قبل التشطيب",
+    "description": "تركيب شفاط مطبخ وتأسيس مسار الدكت لتفادي ضعف السحب ورجوع الروائح. نراجع مقاس المخرج والتثبيت قبل التنفيذ. أرسل موديل جهازك واطلب عرض سعر.",
+    "group": "home",
+    "intent": "commercial",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/built-in-hood",
+        "text": "تركيب شفاط بلت ان"
+      },
+      {
+        "href": "/services/exhaust-ducts",
+        "text": "دكت شفاط"
+      },
+      {
+        "href": "/services/maintenance",
+        "text": "صيانة شفاط المطبخ"
+      },
+      {
+        "href": "/blog/exhaust-duct-sizing",
+        "text": "مقاس دكت شفاط المطبخ"
+      }
+    ]
+  },
+  {
+    "path": "/services/built-in-hood",
+    "primary": "تركيب شفاط بلت ان",
+    "secondary": [
+      "تأسيس شفاط بلت ان",
+      "تركيب شفاط مخفي",
+      "وحدة الشفاط المخفي"
+    ],
+    "title": "تركيب شفاط بلت ان وتنسيق وحدة المطبخ | إير برو",
+    "h1": "تركيب شفاط بلت ان وتأسيس الشفاط المخفي",
+    "description": "تركيب شفاط بلت ان مع مراجعة مخطط القص ووحدة المطبخ والدكت وفتحة الصيانة. أرسل الموديل وصور الوحدة لتحديد التجهيزات وعرض السعر.",
+    "group": "home",
+    "intent": "commercial",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/home-hood",
+        "text": "تركيب شفاط مطبخ"
+      },
+      {
+        "href": "/services/exhaust-ducts",
+        "text": "دكت شفاط"
+      },
+      {
+        "href": "/blog/exhaust-duct-sizing",
+        "text": "مقاس دكت شفاط المطبخ"
+      }
+    ]
+  },
+  {
+    "path": "/services/flat-hood",
+    "primary": "تركيب شفاط مسطح",
+    "secondary": [
+      "شفاط مسطح بدون مدخنة",
+      "فلتر كربون للشفاط",
+      "تركيب شفاط تحت الدولاب"
+    ],
+    "title": "تركيب شفاط مسطح بالطرد أو الفلاتر | إير برو",
+    "h1": "تركيب شفاط مسطح أسفل وحدات المطبخ",
+    "description": "تركيب شفاط مسطح مع تحديد الطرد الخارجي أو إعادة التدوير ومراجعة التثبيت والفلاتر. أرسل رقم الموديل وصور المكان لطلب عرض سعر.",
+    "group": "home",
+    "intent": "commercial",
+    "priority": "P2",
+    "related": [
+      {
+        "href": "/services/home-hood",
+        "text": "تركيب شفاط مطبخ"
+      },
+      {
+        "href": "/services/maintenance",
+        "text": "صيانة شفاط المطبخ"
+      },
+      {
+        "href": "/blog/kitchen-hood-cleaning",
+        "text": "تنظيف شفاط المطبخ"
+      }
+    ]
+  },
+  {
+    "path": "/services/pyramid-hood",
+    "primary": "تركيب شفاط هرمي",
+    "secondary": [
+      "تركيب الشفاط الهرمى",
+      "تركيب مدخنة شفاط هرمي",
+      "غطاء مدخنة الشفاط"
+    ],
+    "title": "تركيب شفاط هرمي ومدخنة فوق البوتاجاز | إير برو",
+    "h1": "تركيب شفاط هرمي وتنسيق المدخنة ومسار الطرد",
+    "description": "تركيب شفاط هرمي مع مراجعة الحائط وارتفاع الجهاز والدكت وغطاء المدخنة. أرسل الموديل وصور المطبخ لتحديد نطاق العمل والتكلفة.",
+    "group": "home",
+    "intent": "commercial",
+    "priority": "P2",
+    "related": [
+      {
+        "href": "/services/home-hood",
+        "text": "تركيب شفاط مطبخ"
+      },
+      {
+        "href": "/services/exhaust-ducts",
+        "text": "دكت شفاط"
+      },
+      {
+        "href": "/blog/exhaust-duct-sizing",
+        "text": "مقاس دكت شفاط المطبخ"
+      }
+    ]
+  },
+  {
+    "path": "/services/toshiba-hoods",
+    "primary": "تركيب شفاط توشيبا",
+    "secondary": [
+      "تركيب شفاط توشيبا في الشباك",
+      "مقاس فتحة شفاط توشيبا",
+      "شفاط توشيبا للمطبخ والحمام"
+    ],
+    "title": "تركيب شفاط توشيبا للحائط والشباك | خدمة مستقلة",
+    "h1": "تركيب شفاط توشيبا للمطبخ والحمام حسب الموديل",
+    "description": "تركيب شفاط توشيبا مع مراجعة فتحة الحائط أو الشباك والتوصيلات. خدمة مستقلة؛ أرسل رقم الموديل وصور الموضع لتحديد متطلبات التركيب.",
+    "group": "home",
+    "intent": "commercial",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/window-hood",
+        "text": "تركيب شفاط المطبخ على الشباك"
+      },
+      {
+        "href": "/services/bathroom-fans",
+        "text": "تركيب شفاط حمام"
+      },
+      {
+        "href": "/services/maintenance",
+        "text": "صيانة شفاط المطبخ"
+      }
+    ]
+  },
+  {
+    "path": "/services/window-hood",
+    "primary": "تركيب شفاط المطبخ على الشباك",
+    "secondary": [
+      "تركيب شفاط في الزجاج",
+      "شفاط شباك المطبخ",
+      "تركيب شفاط على شباك خشب"
+    ],
+    "title": "تركيب شفاط المطبخ على الشباك والزجاج | إير برو",
+    "h1": "تركيب شفاط المطبخ على الشباك: زجاج أو إطار مناسب",
+    "description": "تركيب شفاط المطبخ على الشباك مع مراجعة نوع الزجاج ومقاس القص والإطار. أرسل صور الشباك وموديل الجهاز قبل تجهيز الفتحة.",
+    "group": "home",
+    "intent": "commercial",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/toshiba-hoods",
+        "text": "تركيب شفاط توشيبا"
+      },
+      {
+        "href": "/services/home-hood",
+        "text": "تركيب شفاط مطبخ"
+      },
+      {
+        "href": "/blog/how-to-install-kitchen-hood",
+        "text": "طريقة تركيب شفاط المطبخ"
+      }
+    ]
+  },
+  {
+    "path": "/services/bathroom-fans",
+    "primary": "تركيب شفاط حمام",
+    "secondary": [
+      "شفاط سقف حمام",
+      "تأسيس شفاط حمام",
+      "شفاط حمام بدون شباك"
+    ],
+    "title": "تركيب شفاط حمام وتأسيس الدكت السقفي | إير برو",
+    "h1": "تركيب شفاط حمام حائطي أو سقفي وتأسيس مسار الطرد",
+    "description": "تركيب شفاط حمام ومراجعة الدكت والرطوبة ومكان الكهرباء، بما يشمل الشفاط السقفي. أرسل صور السقف والمخرج لتحديد المعاينة والتكلفة.",
+    "group": "ventilation",
+    "intent": "commercial",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/central-exhaust",
+        "text": "شفاط مركزي"
+      },
+      {
+        "href": "/services/exhaust-ducts",
+        "text": "دكت شفاط"
+      },
+      {
+        "href": "/blog/bathroom-ventilation",
+        "text": "شفاط سقف حمام"
+      }
+    ]
+  },
+  {
+    "path": "/services/central-exhaust",
+    "primary": "شفاط مركزي",
+    "secondary": [
+      "شفاط مركزي للمطبخ",
+      "شفاط حمام مركزي",
+      "تأسيس شفط مركزي"
+    ],
+    "title": "شفاط مركزي: تأسيس وتركيب شبكة السحب | إير برو",
+    "h1": "شفاط مركزي وتأسيس شبكة تهوية للمطبخ أو الحمامات",
+    "description": "تأسيس شفاط مركزي مع مراجعة نقاط السحب والدكت وهواء التعويض وفتحات الصيانة. أرسل المخطط وبيانات الاستخدام لطلب عرض نطاق العمل.",
+    "group": "ventilation",
+    "intent": "commercial",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/industrial-blowers",
+        "text": "شفاط صناعي"
+      },
+      {
+        "href": "/services/exhaust-ducts",
+        "text": "دكت شفاط"
+      },
+      {
+        "href": "/services/blower-maintenance",
+        "text": "صيانة بلاور هواء"
+      },
+      {
+        "href": "/blog/bathroom-ventilation",
+        "text": "شفاط سقف حمام"
+      }
+    ]
+  },
+  {
+    "path": "/services/industrial-blowers",
+    "primary": "شفاط صناعي",
+    "secondary": [
+      "شفاط هواء صناعي",
+      "بلاور مطاعم",
+      "بلاور طرد مركزي",
+      "شفاطات مصانع"
+    ],
+    "title": "شفاط صناعي وتركيب بلاورات المطاعم والتهوية | إير برو",
+    "h1": "شفاط صناعي وتركيب بلاورات طرد مركزي للتهوية",
+    "description": "تركيب شفاط صناعي وبلاور تهوية بحسب التدفق والضغط وطبيعة الهواء. أرسل لوحة البيانات ومسار الدكت لمراجعة الربط والتثبيت وعرض السعر.",
+    "group": "ventilation",
+    "intent": "commercial",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/central-exhaust",
+        "text": "شفاط مركزي"
+      },
+      {
+        "href": "/services/restaurants-hood",
+        "text": "هود مطاعم"
+      },
+      {
+        "href": "/services/blower-maintenance",
+        "text": "صيانة بلاور هواء"
+      },
+      {
+        "href": "/blog/blower-selection",
+        "text": "بلاور شفط وطرد"
+      }
+    ]
+  },
+  {
+    "path": "/services/restaurants-hood",
+    "primary": "هود مطاعم",
+    "secondary": [
+      "مداخن مطاعم",
+      "شفاطات مطاعم",
+      "هود مطابخ مطاعم",
+      "تصنيع هود مطاعم"
+    ],
+    "title": "هود مطاعم: تصنيع وتركيب المداخن والدكت | إير برو",
+    "h1": "هود مطاعم وتصنيع وتركيب المداخن ومسار الشفط",
+    "description": "هود مطاعم ومداخن ودكت مع مراجعة معدات الطهي والبلاور وهواء التعويض. أرسل مخطط المطبخ لتحديد الخامات والمقاسات وعرض السعر.",
+    "group": "commercial",
+    "intent": "commercial",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/industrial-blowers",
+        "text": "شفاط صناعي"
+      },
+      {
+        "href": "/services/exhaust-ducts",
+        "text": "دكت شفاط"
+      },
+      {
+        "href": "/services/restaurant-hood-cleaning",
+        "text": "تنظيف هود المطاعم"
+      },
+      {
+        "href": "/blog/restaurant-ventilation",
+        "text": "تهوية المطاعم"
+      }
+    ]
+  },
+  {
+    "path": "/services/exhaust-ducts",
+    "primary": "دكت شفاط",
+    "secondary": [
+      "دكت تهوية",
+      "تركيب دكت شفاط",
+      "دكت صاج",
+      "دكت شفاط المطبخ"
+    ],
+    "title": "دكت شفاط وتهوية: تأسيس وتركيب مجاري الطرد | إير برو",
+    "h1": "دكت شفاط وتهوية: تأسيس المسار والوصلات وفتحات التنظيف",
+    "description": "تأسيس وتركيب دكت شفاط وتهوية مع مراجعة الخامة والمقاس والوصلات ومسار الطرد. أرسل المخطط وصور المكان لعرض يوضح نطاق الأعمال.",
+    "group": "ducts",
+    "intent": "commercial",
+    "priority": "P2",
+    "related": [
+      {
+        "href": "/services/home-hood",
+        "text": "تركيب شفاط مطبخ"
+      },
+      {
+        "href": "/services/restaurants-hood",
+        "text": "هود مطاعم"
+      },
+      {
+        "href": "/services/ac-ducts",
+        "text": "دكت تكييف"
+      },
+      {
+        "href": "/blog/exhaust-duct-sizing",
+        "text": "مقاس دكت شفاط المطبخ"
+      }
+    ]
+  },
+  {
+    "path": "/services/ac-ducts",
+    "primary": "دكت تكييف",
+    "secondary": [
+      "تركيب دكت تكييف",
+      "عزل دكت التكييف",
+      "صاج التكييف",
+      "مجاري الهواء"
+    ],
+    "title": "دكت تكييف: تصنيع وتركيب وعزل مجاري الهواء | إير برو",
+    "h1": "دكت تكييف وتصنيع وتركيب وعزل مجاري الهواء",
+    "description": "تنفيذ دكت تكييف حسب مخطط المشروع مع تحديد الأبعاد والعزل والوصلات وفتحات الصيانة. أرسل الرسومات والكميات لمراجعة نطاق العمل والتكلفة.",
+    "group": "ducts",
+    "intent": "commercial",
+    "priority": "P2",
+    "related": [
+      {
+        "href": "/services/exhaust-ducts",
+        "text": "دكت شفاط"
+      },
+      {
+        "href": "/services/central-exhaust",
+        "text": "شفاط مركزي"
+      },
+      {
+        "href": "/blog/restaurant-ventilation",
+        "text": "تهوية المطاعم"
+      }
+    ]
+  },
+  {
+    "path": "/services/maintenance",
+    "primary": "صيانة شفاط المطبخ",
+    "secondary": [
+      "تصليح شفاط مطبخ",
+      "صيانة شفاطات مطابخ",
+      "ضعف سحب الشفاط"
+    ],
+    "title": "صيانة شفاط المطبخ وتصليح ضعف السحب | إير برو",
+    "h1": "صيانة شفاط المطبخ وتشخيص الأعطال والضوضاء",
+    "description": "صيانة شفاط المطبخ وتشخيص ضعف السحب والاهتزاز وحالة الفلاتر قبل تغيير الأجزاء. أرسل وصف العطل والموديل لتحديد الزيارة والتكلفة.",
+    "group": "maintenance",
+    "intent": "commercial",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/home-hood",
+        "text": "تركيب شفاط مطبخ"
+      },
+      {
+        "href": "/services/restaurant-hood-cleaning",
+        "text": "تنظيف هود المطاعم"
+      },
+      {
+        "href": "/blog/kitchen-hood-repairs",
+        "text": "ضعف سحب شفاط المطبخ"
+      },
+      {
+        "href": "/blog/kitchen-hood-cleaning",
+        "text": "تنظيف شفاط المطبخ"
+      }
+    ]
+  },
+  {
+    "path": "/services/restaurant-hood-cleaning",
+    "primary": "تنظيف هود المطاعم",
+    "secondary": [
+      "شركة تنظيف هود المطاعم",
+      "تنظيف مداخن المطاعم",
+      "صيانة مداخن المطاعم"
+    ],
+    "title": "تنظيف هود المطاعم والمداخن ومجاري الدهون | إير برو",
+    "h1": "تنظيف هود المطاعم والمداخن وفحص تراكم الدهون",
+    "description": "تنظيف هود المطاعم ومراجعة مجاري الدهون والمداخن ونقاط الوصول. أرسل صور الشبكة لتحديد نطاق التنظيف والتوقف المطلوب وعرض السعر.",
+    "group": "maintenance",
+    "intent": "commercial",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/restaurants-hood",
+        "text": "هود مطاعم"
+      },
+      {
+        "href": "/services/blower-maintenance",
+        "text": "صيانة بلاور هواء"
+      },
+      {
+        "href": "/services/exhaust-ducts",
+        "text": "دكت شفاط"
+      },
+      {
+        "href": "/blog/restaurant-ventilation",
+        "text": "تهوية المطاعم"
+      }
+    ]
+  },
+  {
+    "path": "/services/blower-maintenance",
+    "primary": "صيانة بلاور هواء",
+    "secondary": [
+      "تصليح بلاور هواء",
+      "صيانة بلاورات",
+      "اهتزاز البلاور",
+      "ضعف سحب البلاور"
+    ],
+    "title": "صيانة بلاور هواء وتشخيص الاهتزاز وضعف السحب | إير برو",
+    "h1": "صيانة بلاور هواء للتهوية وتشخيص الاهتزاز وضعف السحب",
+    "description": "صيانة بلاور هواء وفحص التثبيت والدوران والمحامل والسيور عند وجودها. أرسل لوحة البيانات ووصف العطل لتحديد نطاق الفحص والإصلاح.",
+    "group": "maintenance",
+    "intent": "commercial",
+    "priority": "P2",
+    "related": [
+      {
+        "href": "/services/industrial-blowers",
+        "text": "شفاط صناعي"
+      },
+      {
+        "href": "/services/central-exhaust",
+        "text": "شفاط مركزي"
+      },
+      {
+        "href": "/services/restaurant-hood-cleaning",
+        "text": "تنظيف هود المطاعم"
+      },
+      {
+        "href": "/blog/blower-selection",
+        "text": "بلاور شفط وطرد"
+      }
+    ]
+  },
+  {
+    "path": "/blog/how-to-install-kitchen-hood",
+    "primary": "طريقة تركيب شفاط المطبخ",
+    "secondary": [
+      "تجهيز تركيب شفاط المطبخ",
+      "تأسيس فتحة شفاط المطبخ"
+    ],
+    "title": "طريقة تركيب شفاط المطبخ وتجهيز الدكت والفتحات",
+    "h1": "طريقة تركيب شفاط المطبخ: ما الذي تجهزه قبل الزيارة؟",
+    "description": "دليل تجهيز تركيب شفاط المطبخ: الموديل ومسار الهواء ومقاسات القص والتثبيت والكهرباء، مع قائمة مراجعة قبل حجز الفني.",
+    "group": "home",
+    "intent": "informational",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/home-hood",
+        "text": "تركيب شفاط مطبخ"
+      },
+      {
+        "href": "/services/window-hood",
+        "text": "تركيب شفاط المطبخ على الشباك"
+      },
+      {
+        "href": "/blog/exhaust-duct-sizing",
+        "text": "مقاس دكت شفاط المطبخ"
+      }
+    ]
+  },
+  {
+    "path": "/blog/kitchen-hood-repairs",
+    "primary": "ضعف سحب شفاط المطبخ",
+    "secondary": [
+      "صوت شفاط المطبخ عالي",
+      "رجوع روائح الشفاط",
+      "أعطال شفاط المطبخ"
+    ],
+    "title": "ضعف سحب شفاط المطبخ: الأسباب والضوضاء والحلول",
+    "h1": "ضعف سحب شفاط المطبخ: كيف تحدد سبب المشكلة؟",
+    "description": "أسباب ضعف سحب شفاط المطبخ والضوضاء وارتداد الروائح، وملاحظات تساعدك على طلب التشخيص دون فك المحرك أو التوصيلات.",
+    "group": "maintenance",
+    "intent": "informational",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/maintenance",
+        "text": "صيانة شفاط المطبخ"
+      },
+      {
+        "href": "/services/blower-maintenance",
+        "text": "صيانة بلاور هواء"
+      },
+      {
+        "href": "/blog/kitchen-hood-cleaning",
+        "text": "تنظيف شفاط المطبخ"
+      }
+    ]
+  },
+  {
+    "path": "/blog/blower-selection",
+    "primary": "بلاور شفط وطرد",
+    "secondary": [
+      "بلاور طرد مركزي",
+      "اختيار بلاور تهوية",
+      "حساب قدرة البلاور"
+    ],
+    "title": "بلاور شفط وطرد: جهاز تنظيف أم بلاور تهوية؟",
+    "h1": "بلاور شفط وطرد: الفرق بين جهاز التنظيف وبلاور التهوية",
+    "description": "تعرف على الفرق بين البلاور اليدوي وبلاور التهوية، ودور التدفق والضغط وطبيعة الهواء في اختيار شفاط صناعي وربطه بالدكت.",
+    "group": "ventilation",
+    "intent": "informational",
+    "priority": "P2",
+    "related": [
+      {
+        "href": "/services/industrial-blowers",
+        "text": "شفاط صناعي"
+      },
+      {
+        "href": "/services/blower-maintenance",
+        "text": "صيانة بلاور هواء"
+      },
+      {
+        "href": "/services/central-exhaust",
+        "text": "شفاط مركزي"
+      }
+    ]
+  },
+  {
+    "path": "/blog/bathroom-ventilation",
+    "primary": "شفاط سقف حمام",
+    "secondary": [
+      "شفاط حمام بدون شباك",
+      "تأسيس شفاط حمام",
+      "شفاط حمام سقف"
+    ],
+    "title": "شفاط سقف حمام: اختيار المسار والتأسيس قبل الجبس",
+    "h1": "شفاط سقف حمام: كيف تجهز التهوية قبل إغلاق السقف؟",
+    "description": "دليل شفاط سقف الحمام: مسار الطرد وهواء التعويض وفتحة الصيانة ومكان الكهرباء، وما يجب مراجعته في الحمام بدون شباك.",
+    "group": "ventilation",
+    "intent": "informational",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/bathroom-fans",
+        "text": "تركيب شفاط حمام"
+      },
+      {
+        "href": "/services/central-exhaust",
+        "text": "شفاط مركزي"
+      },
+      {
+        "href": "/services/exhaust-ducts",
+        "text": "دكت شفاط"
+      }
+    ]
+  },
+  {
+    "path": "/blog/exhaust-duct-sizing",
+    "primary": "مقاس دكت شفاط المطبخ",
+    "secondary": [
+      "قطر ماسورة الشفاط",
+      "دكت شفاط المطبخ",
+      "مقاومة دكت الشفاط"
+    ],
+    "title": "مقاس دكت شفاط المطبخ: القطر والأكواع والخامة",
+    "h1": "مقاس دكت شفاط المطبخ: لماذا لا يصلح قطر واحد للجميع؟",
+    "description": "كيف تختار مقاس دكت شفاط المطبخ من دليل الجهاز ومسار الطرد، وتأثير الأكواع والخامة والتضييق على السحب والضوضاء.",
+    "group": "ducts",
+    "intent": "informational",
+    "priority": "P2",
+    "related": [
+      {
+        "href": "/services/home-hood",
+        "text": "تركيب شفاط مطبخ"
+      },
+      {
+        "href": "/services/exhaust-ducts",
+        "text": "دكت شفاط"
+      },
+      {
+        "href": "/services/ac-ducts",
+        "text": "دكت تكييف"
+      }
+    ]
+  },
+  {
+    "path": "/blog/restaurant-ventilation",
+    "primary": "تهوية المطاعم",
+    "secondary": [
+      "هواء التعويض للمطاعم",
+      "اختيار هود المطعم",
+      "بلاور مطاعم"
+    ],
+    "title": "تهوية المطاعم: الهود والبلاور والدكت وهواء التعويض",
+    "h1": "تهوية المطاعم: ما الذي يربط الهود بالبلاور وهواء التعويض؟",
+    "description": "دليل تجهيز طلب تهوية المطاعم: معدات الطهي والتقاط الدخان ومجرى الدهون والبلاور والهواء البديل والتنسيق مع مختصي المشروع.",
+    "group": "commercial",
+    "intent": "informational",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/restaurants-hood",
+        "text": "هود مطاعم"
+      },
+      {
+        "href": "/services/industrial-blowers",
+        "text": "شفاط صناعي"
+      },
+      {
+        "href": "/services/restaurant-hood-cleaning",
+        "text": "تنظيف هود المطاعم"
+      }
+    ]
+  },
+  {
+    "path": "/blog/kitchen-hood-cleaning",
+    "primary": "تنظيف شفاط المطبخ",
+    "secondary": [
+      "تنظيف شفاط المطبخ من الدهون والشحوم",
+      "تنظيف فلتر شفاط المطبخ",
+      "طريقة تنظيف الشفاط"
+    ],
+    "title": "تنظيف شفاط المطبخ والفلاتر: ما الذي يسمح به الدليل؟",
+    "h1": "تنظيف شفاط المطبخ: الدهون والفلاتر وحدود التنظيف المنزلي",
+    "description": "تنظيف شفاط المطبخ والفلاتر حسب تعليمات الموديل، والفرق بين فلتر الدهون والكربون ومتى تتوقف عن التنظيف وتطلب الصيانة.",
+    "group": "maintenance",
+    "intent": "informational",
+    "priority": "P1",
+    "related": [
+      {
+        "href": "/services/maintenance",
+        "text": "صيانة شفاط المطبخ"
+      },
+      {
+        "href": "/blog/kitchen-hood-repairs",
+        "text": "ضعف سحب شفاط المطبخ"
+      },
+      {
+        "href": "/services/restaurant-hood-cleaning",
+        "text": "تنظيف هود المطاعم"
+      }
+    ]
+  }
+]

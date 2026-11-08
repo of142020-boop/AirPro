@@ -1,0 +1,5048 @@
+{
+  "checkedAt": "2026-10-30T07:18:11.310Z",
+  "language": "ar",
+  "country": "Egypt",
+  "geoTarget": "2818",
+  "keywords": [
+    "تركيب شفاط مطبخ",
+    "تأسيس شفاط المطبخ",
+    "تأسيس دكت شفاط المطبخ",
+    "تركيب مدخنة شفاط مطبخ",
+    "فني تركيب شفاط المطبخ",
+    "تركيب شفاط المطبخ بدون مدخنة",
+    "تركيب شفاطات بلت ان",
+    "تركيب شفاط مطبخ القاهرة",
+    "تركيب شفاط مطبخ التجمع الخامس",
+    "تركيب شفاط مطبخ الشيخ زايد",
+    "مواسير شفاط المطبخ",
+    "مقاس ماسورة شفاط المطبخ",
+    "ضعف شفط شفاط المطبخ",
+    "صوت شفاط المطبخ عالي"
+  ],
+  "ads": {
+    "status": "success",
+    "apiVersion": "v26",
+    "historicalMetrics": [
+      {
+        "keyword": "تركيب شفاط مطبخ",
+        "closeVariants": [],
+        "monthlySearches": 260,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "320"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "320"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "210"
+          }
+        ]
+      },
+      {
+        "keyword": "تأسيس شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 90,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "90"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب مدخنة شفاط مطبخ",
+        "closeVariants": [],
+        "monthlySearches": 170,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "170"
+          }
+        ]
+      },
+      {
+        "keyword": "فني تركيب شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 70,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "110"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاط المطبخ بدون مدخنة",
+        "closeVariants": [],
+        "monthlySearches": 210,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "210"
+          }
+        ]
+      },
+      {
+        "keyword": "صوت شفاط المطبخ عالي",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تأسيس دكت شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": null,
+        "advertisingCompetition": null,
+        "months": []
+      },
+      {
+        "keyword": "تركيب شفاطات بلت ان",
+        "closeVariants": [],
+        "monthlySearches": null,
+        "advertisingCompetition": null,
+        "months": []
+      },
+      {
+        "keyword": "تركيب شفاط مطبخ القاهرة",
+        "closeVariants": [],
+        "monthlySearches": null,
+        "advertisingCompetition": null,
+        "months": []
+      },
+      {
+        "keyword": "تركيب شفاط مطبخ التجمع الخامس",
+        "closeVariants": [],
+        "monthlySearches": null,
+        "advertisingCompetition": null,
+        "months": []
+      },
+      {
+        "keyword": "تركيب شفاط مطبخ الشيخ زايد",
+        "closeVariants": [],
+        "monthlySearches": null,
+        "advertisingCompetition": null,
+        "months": []
+      },
+      {
+        "keyword": "مواسير شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": null,
+        "advertisingCompetition": null,
+        "months": []
+      },
+      {
+        "keyword": "مقاس ماسورة شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": null,
+        "advertisingCompetition": null,
+        "months": []
+      },
+      {
+        "keyword": "ضعف شفط شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": null,
+        "advertisingCompetition": null,
+        "months": []
+      }
+    ],
+    "ideas": [
+      {
+        "keyword": "تركيب شفاط مطبخ",
+        "closeVariants": [],
+        "monthlySearches": 260,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "320"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "320"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "210"
+          }
+        ]
+      },
+      {
+        "keyword": "تأسيس شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 90,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "90"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب مدخنة شفاط مطبخ",
+        "closeVariants": [],
+        "monthlySearches": 170,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "170"
+          }
+        ]
+      },
+      {
+        "keyword": "فني تركيب شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 70,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "110"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاط",
+        "closeVariants": [],
+        "monthlySearches": 140,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "90"
+          }
+        ]
+      },
+      {
+        "keyword": "تصليح شفاطات مطابخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاطات",
+        "closeVariants": [],
+        "monthlySearches": 140,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "90"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاطات مطابخ",
+        "closeVariants": [],
+        "monthlySearches": 20,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تهويه مركزيه مطابخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "فني شفاطات",
+        "closeVariants": [],
+        "monthlySearches": 40,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "70"
+          }
+        ]
+      },
+      {
+        "keyword": "فني تركيب شفاط مطبخ",
+        "closeVariants": [],
+        "monthlySearches": 70,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "110"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاط المطبخ بدون مدخنة",
+        "closeVariants": [],
+        "monthlySearches": 210,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "210"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاط المطبخ على الشباك",
+        "closeVariants": [],
+        "monthlySearches": 390,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "320"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "320"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "320"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "390"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "390"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "320"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "390"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "480"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "480"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "390"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاط المطبخ بمدخنة",
+        "closeVariants": [],
+        "monthlySearches": 90,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "90"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب مدخنة مطبخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": null,
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "0"
+          }
+        ]
+      },
+      {
+        "keyword": "شفاط مدخنه",
+        "closeVariants": [],
+        "monthlySearches": 390,
+        "advertisingCompetition": "HIGH",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "390"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "390"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "390"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "480"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "320"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "320"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "480"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "320"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "390"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "480"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "390"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "390"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب مروحة شفط مطبخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": null,
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "0"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب دكت شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "اعطال شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 50,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "50"
+          }
+        ]
+      },
+      {
+        "keyword": "انبوب شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تاسيس شفاط الفرن",
+        "closeVariants": [],
+        "monthlySearches": 0,
+        "advertisingCompetition": null,
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "0"
+          }
+        ]
+      },
+      {
+        "keyword": "تثبيت شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب الشفاط الحديد",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب الشفاط الهرمى",
+        "closeVariants": [],
+        "monthlySearches": 20,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "30"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب الشفاط في الشباك",
+        "closeVariants": [],
+        "monthlySearches": 30,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "50"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب الشفاط في المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 30,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "40"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب الشفاط في شباك المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 30,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "20"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب ريش الشفاط",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاط اليكا",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "HIGH",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاط تورنيدو",
+        "closeVariants": [],
+        "monthlySearches": 20,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاط زجاج",
+        "closeVariants": [],
+        "monthlySearches": 110,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "210"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاط فريش",
+        "closeVariants": [],
+        "monthlySearches": 40,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "30"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاط مطبخ اريستون",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب شفاط مطبخ مسطح بدون مدخنة",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "MEDIUM",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "20"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب فتلة الشفاط توشيبا",
+        "closeVariants": [],
+        "monthlySearches": 170,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "170"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب مدخنة الشفاط",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "MEDIUM",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تركيب هواية المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تصليح فتلة شفاط توشيبا",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "توصيل اسلاك شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 50,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "70"
+          }
+        ]
+      },
+      {
+        "keyword": "شفاط توشيبا ٢٠",
+        "closeVariants": [],
+        "monthlySearches": 30,
+        "advertisingCompetition": "HIGH",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "40"
+          }
+        ]
+      },
+      {
+        "keyword": "شفاط مسطح ايطالى",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "شفاط مسطح بدون مدخنة توشيبا",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "HIGH",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب الشفاط",
+        "closeVariants": [],
+        "monthlySearches": 90,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "90"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب الشفاط الحديد",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب الشفاط المدخنة",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب الشفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 70,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "70"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب الشفاط الهرمى",
+        "closeVariants": [],
+        "monthlySearches": 20,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "30"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب الشفاط في المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب شفاط اريستون",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": null,
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "0"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب شفاط المطبخ الايطالي",
+        "closeVariants": [],
+        "monthlySearches": 50,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "70"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب شفاط المطبخ بالصور",
+        "closeVariants": [],
+        "monthlySearches": 720,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "480"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "590"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "590"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "720"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "720"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "720"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "720"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "720"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "720"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "720"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "720"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "590"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب شفاط المطبخ توشيبا",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب شفاط المطبخ فريش",
+        "closeVariants": [],
+        "monthlySearches": 170,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "260"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "210"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "170"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "170"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب شفاط توشيبا",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب شفاط فريش",
+        "closeVariants": [],
+        "monthlySearches": 30,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "20"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب مدخنة شفاط مطبخ",
+        "closeVariants": [],
+        "monthlySearches": 110,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "90"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "110"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "140"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "90"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب مروحة شفط حديد للمطبخ",
+        "closeVariants": [],
+        "monthlySearches": 30,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "50"
+          }
+        ]
+      },
+      {
+        "keyword": "طريقة تركيب هواية المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "كيفية تثبيت شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "كيفية تركيب الشفاط",
+        "closeVariants": [],
+        "monthlySearches": 20,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "20"
+          }
+        ]
+      },
+      {
+        "keyword": "كيفية تركيب الشفاط الهرمي",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "كيفية تركيب شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 50,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "30"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "70"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "50"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "40"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "50"
+          }
+        ]
+      },
+      {
+        "keyword": "كيفية تركيب شفاط المطبخ اريستون",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "كيفية تركيب شفاط المطبخ بدون مدخنة",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "كيفية تركيب شفاط المطبخ توشيبا",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "20"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "كيفية تركيب مدخنة المطبخ",
+        "closeVariants": [],
+        "monthlySearches": 10,
+        "advertisingCompetition": "LOW",
+        "months": [
+          {
+            "month": "OCTOBER",
+            "year": "2025",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "NOVEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "DECEMBER",
+            "year": "2025",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "JANUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "FEBRUARY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MARCH",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "APRIL",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "MAY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JUNE",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "JULY",
+            "year": "2026",
+            "monthlySearches": "10"
+          },
+          {
+            "month": "AUGUST",
+            "year": "2026",
+            "monthlySearches": "0"
+          },
+          {
+            "month": "SEPTEMBER",
+            "year": "2026",
+            "monthlySearches": "10"
+          }
+        ]
+      },
+      {
+        "keyword": "تأسيس دكت شفاط المطبخ",
+        "closeVariants": [],
+        "monthlySearches": null,
+        "advertisingCompetition": null,
+        "months": []
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "query": "تركيب شفاط المطبخ",
+      "keywords": [
+        "تركيب شفاط المطبخ على الشباك",
+        "تركيب شفاط المطبخ بدون مدخنة",
+        "تركيب شفاط المطبخ بمدخنة",
+        "تركيب شفاط المطبخ في السقف",
+        "تركيب شفاط المطبخ في الحائط",
+        "تركيب شفاط المطبخ على الشباك الخشب",
+        "تركيب شفاط المطبخ فريش",
+        "تركيب شفاط المطبخ بيكو",
+        "تركيب شفاط المطبخ تورنيدو",
+        "تركيب شفاط المطبخ الدمام",
+        "تركيب شفاط المطبخ بلت ان",
+        "تركيب شفاط المطبخ الحديد",
+        "تركيب شفاط المطبخ البحرين",
+        "تركيب شفاط المطبخ توشيبا",
+        "تركيب شفاط المطبخ الرياض"
+      ]
+    },
+    {
+      "query": "تأسيس شفاط المطبخ",
+      "keywords": [
+        "تأسيس فتحة شفاط المطبخ",
+        "طريقة تأسيس شفاط المطبخ",
+        "تأسيس شفاط البوتاجاز",
+        "تأسيس شفاط",
+        "تاسيس شفاط مطبخ",
+        "تاسيس شفاط",
+        "تأسيس شفاط بلت ان"
+      ]
+    },
+    {
+      "query": "مواسير شفاط المطبخ",
+      "keywords": [
+        "مواسير شفاط مطبخ",
+        "مواسير شفاطات",
+        "مواسير شفاط",
+        "مواسير الشفاط"
+      ]
+    },
+    {
+      "query": "فني تركيب شفاط",
+      "keywords": [
+        "فني تركيب شفاط المطبخ",
+        "فني تركيب شفاط المطبخ مصر",
+        "فني تركيب شفاط المطبخ جدة",
+        "فني تركيب شفاط مطبخ الرياض",
+        "فني تركيب شفاط المطبخ الدمام",
+        "فني تركيب شفاط رخيص",
+        "فني تركيب شفاط المطبخ الرياض",
+        "فني تركيب شفاط حمام",
+        "شركات تركيب شفاطات",
+        "شركة تركيب شفاطات",
+        "شركة تركيب شفاط مطبخ"
+      ]
+    }
+  ]
+}

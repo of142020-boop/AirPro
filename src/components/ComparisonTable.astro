@@ -1,0 +1,6 @@
+---
+import type { Comparison } from '../types/content';
+interface Props { comparison: Comparison; }
+const { comparison } = Astro.props;
+---
+<div class="table-wrap" role="region" aria-label={comparison.caption} tabindex="0"><table><caption>{comparison.caption}</caption><thead><tr>{comparison.headers.map(header => <th scope="col">{header}</th>)}</tr></thead><tbody>{comparison.rows.map(row => <tr>{row.map((cell,index) => index === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>)}</tr>)}</tbody></table></div>

@@ -1,0 +1,252 @@
+[
+  {
+    "path": "/",
+    "primary": "تركيب شفاطات",
+    "matched": [
+      "تأسيس شفاطات",
+      "تركيب بلاورات",
+      "أنظمة التهوية"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services",
+    "primary": "خدمات الشفاطات والتهوية",
+    "matched": [
+      "تأسيس الشفاطات والبلاورات",
+      "تركيب أنظمة التهوية"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services/home-hood",
+    "primary": "تركيب شفاط مطبخ",
+    "matched": [
+      "تأسيس شفاط المطبخ",
+      "تركيب مدخنة شفاط مطبخ",
+      "فني تركيب شفاط المطبخ"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services/built-in-hood",
+    "primary": "تركيب شفاط بلت ان",
+    "matched": [
+      "تأسيس شفاط بلت ان",
+      "تركيب شفاط مخفي",
+      "وحدة الشفاط المخفي"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services/flat-hood",
+    "primary": "تركيب شفاط مسطح",
+    "matched": [
+      "شفاط مسطح بدون مدخنة",
+      "فلتر كربون للشفاط",
+      "تركيب شفاط تحت الدولاب"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services/pyramid-hood",
+    "primary": "تركيب شفاط هرمي",
+    "matched": [
+      "تركيب مدخنة شفاط هرمي",
+      "غطاء مدخنة الشفاط"
+    ],
+    "relatedTopics": [
+      "تركيب الشفاط الهرمى"
+    ]
+  },
+  {
+    "path": "/services/toshiba-hoods",
+    "primary": "تركيب شفاط توشيبا",
+    "matched": [
+      "تركيب شفاط توشيبا في الشباك",
+      "مقاس فتحة شفاط توشيبا",
+      "شفاط توشيبا للمطبخ والحمام"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services/window-hood",
+    "primary": "تركيب شفاط المطبخ على الشباك",
+    "matched": [
+      "تركيب شفاط في الزجاج",
+      "شفاط شباك المطبخ"
+    ],
+    "relatedTopics": [
+      "تركيب شفاط على شباك خشب"
+    ]
+  },
+  {
+    "path": "/services/bathroom-fans",
+    "primary": "تركيب شفاط حمام",
+    "matched": [
+      "شفاط سقف حمام",
+      "تأسيس شفاط حمام",
+      "شفاط حمام بدون شباك"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services/central-exhaust",
+    "primary": "شفاط مركزي",
+    "matched": [
+      "شفاط مركزي للمطبخ",
+      "شفاط حمام مركزي",
+      "تأسيس شفط مركزي"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services/industrial-blowers",
+    "primary": "شفاط صناعي",
+    "matched": [
+      "شفاط هواء صناعي",
+      "بلاور مطاعم",
+      "بلاور طرد مركزي",
+      "شفاطات مصانع"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services/restaurants-hood",
+    "primary": "هود مطاعم",
+    "matched": [
+      "مداخن مطاعم",
+      "شفاطات مطاعم",
+      "تصنيع هود مطاعم"
+    ],
+    "relatedTopics": [
+      "هود مطابخ مطاعم"
+    ]
+  },
+  {
+    "path": "/services/exhaust-ducts",
+    "primary": "دكت شفاط",
+    "matched": [
+      "دكت تهوية",
+      "تركيب دكت شفاط",
+      "دكت صاج",
+      "دكت شفاط المطبخ"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services/ac-ducts",
+    "primary": "دكت تكييف",
+    "matched": [
+      "تركيب دكت تكييف",
+      "عزل دكت التكييف",
+      "صاج التكييف",
+      "مجاري الهواء"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services/maintenance",
+    "primary": "صيانة شفاط المطبخ",
+    "matched": [
+      "تصليح شفاط مطبخ",
+      "صيانة شفاطات مطابخ",
+      "ضعف سحب الشفاط"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/services/restaurant-hood-cleaning",
+    "primary": "تنظيف هود المطاعم",
+    "matched": [
+      "تنظيف مداخن المطاعم",
+      "صيانة مداخن المطاعم"
+    ],
+    "relatedTopics": [
+      "شركة تنظيف هود المطاعم"
+    ]
+  },
+  {
+    "path": "/services/blower-maintenance",
+    "primary": "صيانة بلاور هواء",
+    "matched": [
+      "تصليح بلاور هواء",
+      "اهتزاز البلاور",
+      "ضعف سحب البلاور"
+    ],
+    "relatedTopics": [
+      "صيانة بلاورات"
+    ]
+  },
+  {
+    "path": "/blog/how-to-install-kitchen-hood",
+    "primary": "طريقة تركيب شفاط المطبخ",
+    "matched": [
+      "تجهيز تركيب شفاط المطبخ",
+      "تأسيس فتحة شفاط المطبخ"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/blog/kitchen-hood-repairs",
+    "primary": "ضعف سحب شفاط المطبخ",
+    "matched": [
+      "صوت شفاط المطبخ عالي",
+      "رجوع روائح الشفاط",
+      "أعطال شفاط المطبخ"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/blog/blower-selection",
+    "primary": "بلاور شفط وطرد",
+    "matched": [
+      "بلاور طرد مركزي",
+      "اختيار بلاور تهوية",
+      "حساب قدرة البلاور"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/blog/bathroom-ventilation",
+    "primary": "شفاط سقف حمام",
+    "matched": [
+      "شفاط حمام بدون شباك",
+      "تأسيس شفاط حمام"
+    ],
+    "relatedTopics": [
+      "شفاط حمام سقف"
+    ]
+  },
+  {
+    "path": "/blog/exhaust-duct-sizing",
+    "primary": "مقاس دكت شفاط المطبخ",
+    "matched": [
+      "قطر ماسورة الشفاط",
+      "دكت شفاط المطبخ",
+      "مقاومة دكت الشفاط"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/blog/restaurant-ventilation",
+    "primary": "تهوية المطاعم",
+    "matched": [
+      "هواء التعويض للمطاعم",
+      "اختيار هود المطعم",
+      "بلاور مطاعم"
+    ],
+    "relatedTopics": []
+  },
+  {
+    "path": "/blog/kitchen-hood-cleaning",
+    "primary": "تنظيف شفاط المطبخ",
+    "matched": [
+      "تنظيف شفاط المطبخ من الدهون والشحوم",
+      "تنظيف فلتر شفاط المطبخ"
+    ],
+    "relatedTopics": [
+      "طريقة تنظيف الشفاط"
+    ]
+  }
+]

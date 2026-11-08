@@ -1,98 +1,86 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import seo from '../../data/home-hood-seo.json';
+import { getPageSeo } from '../../lib/seo';
+const pageSeo = getPageSeo('/services/home-hood');
+const pageUrl = Astro.site ? new URL('/services/home-hood', Astro.site).href : undefined;
+const businessId = Astro.site ? new URL('/#business', Astro.site).href : undefined;
+const schema = pageUrl ? {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'LocalBusiness', '@id': businessId, name: 'إير برو | AirPro', url: Astro.site!.href, telephone: '+201101219418' },
+    { '@type': 'Service', '@id': `${pageUrl}#service`, name: 'تركيب شفاط مطبخ وتأسيس الدكت', serviceType: 'تأسيس وتركيب شفاط المطبخ', url: pageUrl, description: seo.description, provider: { '@id': businessId }, mainEntityOfPage: pageUrl },
+    { '@type': 'FAQPage', '@id': `${pageUrl}#faq`, url: pageUrl, mainEntity: seo.faq.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) }
+  ]
+} : undefined;
 ---
-
-<Layout title="تأسيس شفاط المطبخ | أفضل فني تركيب شفاط مطبخ مخفي" description="نقدم أفضل فني تركيب شفاط مطبخ لعمليات تأسيس شفاط المطبخ للفلل والشقق. حلول متكاملة لتركيب الشفاطات المخفية، شفاط بلت ان، وشفاطات حمامات وعمل فتحات الكور.">
-	<section style="padding: 150px 20px 80px; background: linear-gradient(135deg, var(--background) 0%, rgba(14, 165, 233, 0.05) 100%); text-align: center;">
-		<div class="animate-fade-up">
-			<span style="color: var(--secondary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;">للشقق والفلل والقصور</span>
-			<h1 style="font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 900; color: var(--primary-dark); margin: 15px 0;">
-				<span class="gradient-text">تأسيس شفاط المطبخ</span>
-			</h1>
-			<p style="color: var(--text-muted); font-size: 1.2rem; max-width: 1200px; margin: 0 auto;">
-				سواء كنت تبحث عن تركيب شفاطات عادية أو تأسيس شفاط بلت ان وشفاط مطبخ بدون مدخنة، نوفر لك أمهر فني تركيب شفاط مطبخ للفلل وحتى تجهيز شفاطات حمامات بأعلى مستوى من النظافة الهندسية.
-			</p>
-		</div>
-	</section>
-
-	<!-- SEO Optimized Placeholder Image -->
-	<div class="section reveal" style="margin-top: -30px; margin-bottom: 50px; padding: 0 20px;">
-		<div style="max-width: 1200px; margin: 0 auto; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.1); border: 1px solid var(--glass-border); position: relative; background: #e2e8f0; display: flex; align-items: center; justify-content: center; min-height: 400px;">
-			<!-- This is the placeholder img tag -->
-			<img src="/images/services/taasis-shafat-matbakh-fillah.jpg" alt="تأسيس شفاط المطبخ للفلل والشقق وعمل فتحات الكور" title="تأسيس شفاط المطبخ للفلل والشقق وعمل فتحات الكور" style="width: 100%; max-height: 450px; object-fit: cover; display: block;" />
-			<div style="position: absolute; color: #64748b; font-size: 1.2rem; font-weight: 700;">صورة: تأسيس شفاط المطبخ للفلل والشقق وعمل فتحات الكور</div>
-		</div>
-	</div>
-
-
-	<section class="section" style="padding-top: 40px; padding-bottom: 80px;">
-		<div class="reveal">
-			<h2 style="font-size: 2.2rem; color: var(--primary-dark); margin-bottom: 30px;">حلول منزلية تناسب أرقى الديكورات</h2>
-			<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
-				
-				<div class="glass-card" style="border-top: 4px solid var(--secondary);">
-					<h3 style="font-size: 1.5rem; color: var(--primary); margin-bottom: 15px;">تأسيس الشفاط المخفي قبل السيراميك</h3>
-					<p style="color: var(--text-muted); line-height: 1.8;">
-						إذا كنت في مرحلة التشطيب، نحن نوفر خدمة تأسيس شفاط المطبخ قبل السيراميك والجبس بورد. سيقوم فني تركيب شفاطات بتمديد الدكت الصاج وتوصيله وتجهيزه لتركيب شفاط بلت ان أو شفاط مطبخ بدون مدخنة لاحقاً لضمان شكل جمالي خالي من المواسير الظاهرة.
-					</p>
-				</div>
-
-				<div class="glass-card" style="border-top: 4px solid var(--secondary);">
-					<h3 style="font-size: 1.5rem; color: var(--primary); margin-bottom: 15px;">تركيب شفاط بمدخنة وبدون مدخنة</h3>
-					<p style="color: var(--text-muted); line-height: 1.8;">
-						سواء كنت تبحث عن تركيب شفاط المطبخ على الشباك أو تركيب شفاط المطبخ بدون مدخنة (بفلاتر كربونية)، فريقنا يمتلك الخبرة للتعامل مع كافة الأنواع مثل تركيب شفاط المطبخ فريش، تورنيدو، والأنواع الإيطالية عبر صنايعي تركيب شفاط مطبخ محترف.
-					</p>
-				</div>
-
-				<div class="glass-card" style="border-top: 4px solid var(--secondary);">
-					<h3 style="font-size: 1.5rem; color: var(--primary); margin-bottom: 15px;">عمل الفتحات بدون تكسير (الكور)</h3>
-					<p style="color: var(--text-muted); line-height: 1.8;">
-						من أكبر مشاكل التركيب هي تكسير الحوائط وتشوه الديكور. نحن نتميز بخدمة تخريم خرسانة لعمل فتحات الشفاطات بالكور (Core Drilling). يتم عمل الفتحة بشكل دائري دقيق ونظيف تماماً لتركيب مدخنة شفاط بوتاجاز أو لتركيب شفاط المطبخ على الشباك أو في الحائط.
-					</p>
-				</div>
-
-				<div class="glass-card" style="border-top: 4px solid var(--secondary);">
-					<h3 style="font-size: 1.5rem; color: var(--primary); margin-bottom: 15px;">شفاطات السقف والجبس بورد</h3>
-					<p style="color: var(--text-muted); line-height: 1.8;">
-						تعتبر شفاطات السقف من أحدث صيحات الديكور المودرن. نقدم حلول تركيب شفاط المطبخ في السقف، و تركيب شفاط في الجبس بورد للمطابخ المفتوحة (الامريكان) وللحمامات، ونرشح لك دائماً أفضل شفاط سقف للمطبخ يضمن السحب القوي والهدوء.
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="section" style="padding-top: 20px; padding-bottom: 60px;">
-		<div class="reveal" style="max-width: 1200px; margin: 0 auto; background: var(--card-bg); padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
-			<h2 style="font-size: 2rem; color: var(--primary-dark); margin-bottom: 25px; text-align: center;">دليلك لاختيار أفضل شفاط مطبخ منزلي</h2>
-			
-			<div style="margin-bottom: 25px;">
-				<h4 style="font-size: 1.3rem; color: var(--primary); margin-bottom: 10px;">ما هو الفرق بين الشفاط المسطح والهرمي؟</h4>
-				<p style="color: var(--text-muted); line-height: 1.8;">
-					كثيراً ما نتلقى هذا السؤال. الشفاط الهرمي يتميز بشكله الكلاسيكي البارز وقوة سحبه العالية، ويحتاج إلى تمديد مدخنة (دكت) للخارج. بينما شفاط مطبخ مسطح يتميز بحجمه النحيف (Slim) ويمكن تركيبه تحت الدواليب، وغالباً ما يعمل بفلاتر كربونية (نظام تنقية داخلي) ولا يحتاج لمدخنة بالضرورة.
-				</p>
-			</div>
-
-			<div style="margin-bottom: 25px;">
-				<h4 style="font-size: 1.3rem; color: var(--primary); margin-bottom: 10px;">عن اسعار شفاطات المطابخ وتكاليف التركيب</h4>
-				<p style="color: var(--text-muted); line-height: 1.8;">
-					تتفاوت اسعار شفاطات المطابخ بناءً على قوة الموتور (قوة السحب المتر المكعب/ساعة)، نوع الفلاتر، والماركة (مثل تورنيدو، فريش، أو الإيطالي). أما بالنسبة لتكلفة التركيب، فهي تعتمد على ما إذا كنت تحتاج إلى مجرد تركيب بسيط على شباك، أم تأسيس وتخريم بالكور وتمديد دكت كامل. نحن في "إير برو" نقدم مقايسات دقيقة لضمان أعلى جودة بأفضل سعر.
-				</p>
-			</div>
-			
-			<div style="margin-bottom: 25px;">
-				<h4 style="font-size: 1.3rem; color: var(--primary); margin-bottom: 10px;">أفضل شفاط مطبخ بلت ان</h4>
-				<p style="color: var(--text-muted); line-height: 1.8;">
-					نحن نرشح دائماً شفاط مطبخ بلت ان للمطابخ العصرية (المودرن). يتم إخفاؤه بالكامل داخل وحدة المطبخ الخشبية، ويوفر مظهراً انسيابياً رائعاً، وعندما يتم تركيبه وتأسيسه بواسطة فنيينا، نضمن لك هدوءاً تاماً أثناء التشغيل وقوة سحب ممتازة للأبخرة.
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<section class="section" style="text-align: center; padding-bottom: 80px;">
-		<div class="reveal" style="background: rgba(14, 165, 233, 0.05); padding: 40px; border-radius: 20px; border: 1px solid var(--glass-border);">
-			<h2 style="font-size: 2rem; color: var(--primary-dark); margin-bottom: 15px;">هل تواجه حيرة في اختيار الشفاط المناسب؟</h2>
-			<p style="color: var(--text-muted); margin-bottom: 30px;">فريقنا الاستشاري متواجد للإجابة على جميع تساؤلاتك وتوفير فني تركيب شفاط المطبخ في أي مكان بمصر.</p>
-			<a href="/contact" class="btn btn-primary" style="padding: 12px 35px; font-size: 1.1rem;">تواصل معنا الآن</a>
-		</div>
-	</section>
+<Layout title={pageSeo.title} description={pageSeo.description}>
+  {schema && <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\u003c')} />}
+  <div class="hero"><div class="content">
+    <nav class="breadcrumbs" aria-label="مسار الصفحة"><a href="/">الرئيسية</a><span>›</span><a href="/services">الخدمات</a><span>›</span><span>شفاط المطبخ</span></nav>
+    <p class="eyebrow">إير برو | تأسيس وتركيب الشفاطات</p>
+    <h1>تركيب شفاط مطبخ وتأسيس الدكت قبل التشطيب</h1>
+    <p>الموتور القوي وحده لا يكفي إذا كان مسار الهواء ضيقاً أو مليئاً بالأكواع. نراجع موديل الشفاط ومكانه وفتحة الطرد قبل التنفيذ، لتحديد تركيب يناسب مطبخك ويسهّل صيانته.</p>
+    <div class="actions"><a class="btn btn-primary" href="/contact">أرسل صور المطبخ واطلب عرض سعر</a><a class="btn btn-secondary" href="tel:+201101219418">اتصل: 01101219418</a></div>
+    <p>أرسل منطقتك لتأكيد توافر الخدمة وتكلفة الانتقال وموعد المعاينة.</p>
+  </div></div>
+  <article class="content prose section">
+    <nav class="toc" aria-label="محتويات الصفحة"><a href="#foundation">خطوات التأسيس</a><a href="#sizes">المقاسات والخامات</a><a href="#problems">ضعف السحب والضوضاء</a><a href="#safety">الأمان</a><a href="#cost">التكلفة</a><a href="#questions">الأسئلة الشائعة</a></nav>
+    <section aria-labelledby="answer-title"><h2 id="answer-title">ما الذي يشمله تأسيس شفاط المطبخ؟</h2>
+      <p>تأسيس شفاط المطبخ هو تجهيز موضع التثبيت ومسار الدكت وفتحة الطرد ونقطة الكهرباء بما يطابق دليل الجهاز. أما التركيب فيشمل تثبيت الشفاط وتوصيل المسار ومراجعة التشغيل. يفضّل تنسيق التأسيس قبل إغلاق الجبس وتركيب الدواليب، مع تحديد الأعمال والخامات التي يشملها العرض.</p>
+      <p>هذه الخدمة تناسب أصحاب الشقق والفلل أثناء التشطيب، وكذلك المطابخ القائمة التي تحتاج مراجعة مسار الشفط. ولمهندس الديكور أو النجّار، أهم نقطة هي اعتماد مخطط الجهاز قبل قص وحدة المطبخ.</p>
+    </section>
+    <section id="foundation"><h2>خطوات تأسيس دكت شفاط المطبخ وتركيبه</h2>
+      <h3>1. مراجعة موديل الجهاز ومخطط المطبخ</h3>
+      <p>نبدأ برقم الموديل، ومكان سطح الطهي، وعرض الجهاز، ومخطط القص والتعليق. عرض الشفاط التجاري لا يساوي بالضرورة فتحة تركيبه، خصوصاً في <a href="/services/built-in-hood">تركيب شفاط بلت إن داخل وحدات المطبخ</a>. تُراجع أيضاً مساحة الوصول إلى الفلاتر والكهرباء لاحقاً.</p>
+      <h3>2. اختيار مسار الهواء وموضع الطرد</h3>
+      <p>يُختار مسار مباشر وقصير قدر الإمكان، مع تقليل الانحناءات والانتقالات المفاجئة والتحقق من سماح المبنى بموضع الخروج. يُراجع هواء التعويض حتى يجد الهواء المسحوب بديلاً مناسباً، وتُدرس بوابة منع الرجوع عند الحاجة دون إعاقة الطرد.</p>
+      <h3>3. تنسيق الفتحة والكهرباء قبل إغلاق التشطيبات</h3>
+      <p>تحدد أبعاد الفتحة بعد معرفة المقاس الخارجي للدكت ووسيلة مروره وإحكامه؛ مقاس فتحة الكور دريل ليس تلقائياً قطر الدكت نفسه. يراجع المختص الخدمات المخفية والعناصر الإنشائية قبل الثقب، ويجهز الكهربائي نقطة التغذية وفق تعليمات الجهاز.</p>
+      <h3>4. تثبيت الشفاط وإحكام الوصلات</h3>
+      <p>نراجع ملاءمة الحائط أو الوحدة للحمل ونقاط التعليق، ونثبت المسار دون سحق الخرطوم أو تحميل وزن الدكت على مخرج الجهاز. تُحكم الوصلات بمواد مناسبة للنظام، وتبقى الفلاتر والأجزاء التي تحتاج صيانة قابلة للوصول.</p>
+      <h3>5. مراجعة التشغيل وتسليم نطاق العمل</h3>
+      <ul><li>مراجعة اتجاه خروج الهواء وحركة بوابة الطرد.</li><li>تشغيل السرعات وملاحظة الاهتزاز والضوضاء وتسريب الوصلات.</li><li>شرح فك الفلاتر والعناية بها وفق دليل الموديل.</li><li>تحديد أي قياسات تدفق مطلوبة وأدواتها ضمن العرض؛ ملاحظة السحب وحدها ليست قياساً هندسياً.</li></ul>
+    </section>
+    <section id="sizes"><h2>مقاسات مواسير شفاط المطبخ والخامات المناسبة</h2>
+      <h3>كيف نختار قطر الدكت وقوة الشفط؟</h3>
+      <p>المرجع الأول هو دليل الموديل وقطر مخرجه، ثم طول المسار وعدد الأكواع ومقاومة الشبكة. معدل التدفق بوحدة م³/ساعة (m³/h) يختلف عن الضغط بوحدة باسكال (Pa)، والأداء المعلن للجهاز لا يساوي بالضرورة التدفق بعد توصيله بدكت طويل.</p>
+      <div class="table-wrap" role="region" aria-label="مقارنة أقطار دكت الشفاط" tabindex="0"><table><caption>أمثلة للمقارنة؛ الاختيار النهائي حسب الموديل والمسار</caption><thead><tr><th scope="col">القطر</th><th scope="col">متى يُراجع؟</th><th scope="col">ما الذي نتجنبه؟</th></tr></thead><tbody>
+        <tr><th scope="row">100 مم</th><td>إذا نص دليل الجهاز صراحةً على ملاءمته.</td><td>تحويل مخرج أكبر إليه لمجرد وجود فتحة قديمة.</td></tr>
+        <tr><th scope="row">120–125 مم</th><td>في الموديلات التي تسمح بهذا المقاس وبملحقات متوافقة.</td><td>افتراض أن 120 و125 مم وصلة واحدة دون التحقق.</td></tr>
+        <tr><th scope="row">150 مم</th><td>في الأجهزة التي توصي بهذا المخرج؛ ليس مقاساً إلزامياً لكل جهاز.</td><td>تصغيره دون مراجعة أثر المقاومة وتعليمات المصنع.</td></tr>
+      </tbody></table></div>
+      <h3>دكت معدني أم PVC أم خرطوم مرن؟</h3>
+      <p>تُحدد الخامة طبقاً لتعليمات الشفاط وطبيعة الهواء ومتطلبات المشروع. الصاج المجلفن أو غيره من الدكت المعدني ليس اختياراً يُحسم بالاسم وحده؛ تهم نعومة المسار والإحكام والتثبيت. لا نفترض صلاحية مواسير PVC للعادم الساخن أو المحمل بالدهون؛ بعض الأجهزة تشترط مجرى غير قابل للاحتراق. وإذا سمح المصنع بوصلات مرنة، تُراجع طريقة تمديدها لتفادي الضغط والانثناءات الحادة.</p>
+      <h3>شفاط بمدخنة أم فلتر كربون؟</h3>
+      <ul><li><strong>الطرد الخارجي:</strong> ينقل الهواء وبخار الطبخ إلى خارج المكان عبر مخرج مناسب.</li><li><strong>إعادة التدوير:</strong> تعتمد على موديل يدعم هذا الوضع وطقم فلاتر متوافق؛ تساعد في تقليل الروائح ولا تطرد الرطوبة إلى الخارج.</li></ul>
+      <p>الفلتر المعدني للدهون مختلف عن فلتر الكربون للروائح. اتبع تعليمات التنظيف والاستبدال، فليس كل فلتر كربوني قابلاً للغسل. والشكل المسطح أو الهرمي أو المخفي لا يحدد وحده نظام التشغيل.</p>
+    </section>
+    <aside class="note" aria-label="طلب مراجعة مسار الدكت"><p><strong>قبل إغلاق السقف أو قص وحدة المطبخ:</strong> أرسل صورة المكان ورقم موديل الشفاط ومكان الطرد المقترح لمراجعة نطاق التأسيس والخامات المطلوبة.</p><div class="actions"><a class="btn btn-primary" href="https://wa.me/201101219418">أرسل تفاصيل المطبخ على واتساب</a><a class="btn btn-secondary" href="tel:+201101219418">اتصل لتنسيق المعاينة</a></div></aside>
+    <section id="problems"><h2>أخطاء تسبب ضعف الشفط والضوضاء ورجوع الروائح</h2>
+      <h3>تضييق الدكت وكثرة الأكواع</h3><p>تقليل مساحة المجرى أو ضغط الخرطوم خلف الدواليب يضيف مقاومة لمسار الطرد. الحل يبدأ بمراجعة القطر والانتقالات والمسار، قبل افتراض أن زيادة قدرة الموتور ستعالج المشكلة.</p>
+      <h3>اهتزاز التثبيت ومعالجة الصوت بطريقة غير مناسبة</h3><p>قد ينتقل اهتزاز الجهاز إلى الخشب أو الحائط، وقد ينشأ الصوت من سرعة الهواء داخل ممر ضيق. نراجع مصدر الصوت ونقاط التثبيت أولاً. لا توضع مواد عزل مرتجلة داخل مجرى محمل بالدهون؛ أي عزل أو ملحق صوتي يحتاج توافقاً مع الاستخدام وإمكانية التنظيف.</p>
+      <h3>بوابة منع الرجوع والفتحة الخارجية</h3><p>رداد الهواء، أو صمام عدم الرجوع، يساعد في تقليل ارتداد الهواء عند ملاءمته وتركيبه الصحيح، لكنه ليس ضماناً لمنع كل الروائح أو الحشرات. نراجع اتجاهه وحركته ومخرج الطرد؛ والشبك غير المناسب قد يتسخ ويعيق السحب. عند استمرار العطل راجع <a href="/services/maintenance">صيانة الشفاطات وتشخيص ضعف السحب</a>.</p>
+    </section>
+    <section id="safety"><h2>معايير الأمان قبل الحفر والتوصيل</h2>
+      <ul><li>اتباع تعليمات الشفاط وسطح الطهي معاً لتحديد ارتفاع التركيب؛ لا يوجد ارتفاع واحد مناسب لكل الأجهزة.</li><li>فصل التغذية أثناء العمل، وتنفيذ التوصيلات والحماية الكهربائية بواسطة مختص.</li><li>مراجعة أماكن التسليح والكابلات والمواسير قبل الكور دريل؛ لا تُثقب الكمرات أو الأعمدة أو تُقطع أسياخ دون مراجعة إنشائية مختصة.</li><li>مراجعة هواء التعويض وخطر ارتداد غازات الاحتراق عند وجود أجهزة احتراق تعتمد على هواء الغرفة.</li><li>عدم توصيل طرد المطبخ بمدخنة احتراق أو مجرى مشترك دون مراجعة تصميم متخصص.</li></ul>
+      <p>هود المطعم ومجرى الدهون لهما متطلبات مختلفة عن الشفاط المنزلي، ولا تستخدم مقاسات هذه الصفحة لتصميم مطبخ تجاري.</p>
+    </section>
+    <section id="cost"><h2>تكلفة تركيب شفاط مطبخ وما يجب أن يتضمنه العرض</h2>
+      <p>لا يوجد سعر واحد يعبر عن تركيب جهاز في فتحة جاهزة وتأسيس مسار جديد فوق سقف معلق. إذا كان طلبك تركيب مدخنة شفاط مطبخ في مكان قائم، جهز صور المسار الحالي قبل زيارة فني تركيب شفاط المطبخ. لتقدير النطاق أرسل:</p>
+      <ul><li>المنطقة وحالة المطبخ: تحت التشطيب أم جاهز للاستخدام.</li><li>رقم الموديل وصور موضع التثبيت ومخرج الهواء المتاح.</li><li>المسار التقريبي وارتفاع العمل وأي فتحات أو وحدات قائمة.</li><li>هل المطلوب تركيب الجهاز فقط، أم الدكت والخامات وأعمال الفتح أيضاً؟</li></ul>
+      <p>راجع فصل الخامات والأجور والتعديلات وتكلفة الانتقال وموعد التنفيذ والاستثناءات. تُراجع شروط أي ضمان مكتوب إن وُجد ضمن العرض. لا يمكن تأكيد «بدون تكسير» أو «معاينة مجانية» قبل معرفة ظروف الموقع وشروط الخدمة.</p>
+      <p>لتجهيز مكانك قبل الزيارة، اقرأ <a href="/blog/how-to-install-kitchen-hood">دليل تجهيز المطبخ لتركيب الشفاط</a>.</p>
+    </section>
+    <section id="questions"><h2>أسئلة شائعة عن تأسيس وتركيب شفاط المطبخ</h2>{seo.faq.map(item => <details><summary>{item.question}</summary><p>{item.answer}</p></details>)}</section>
+    <section class="note"><h2>ابدأ بمراجعة المسار قبل شراء الوصلات</h2><p>أرسل رقم الموديل وصور المطبخ والمنطقة. نراجع إمكانية تنفيذ الخدمة في موقعك ونوضح ما يحتاج معاينة قبل تثبيت نطاق العمل والسعر.</p><div class="actions"><a class="btn btn-primary" href="/contact">اطلب معاينة وعرض سعر</a><a class="btn btn-secondary" href="tel:+201101219418">اتصل: 01101219418</a></div></section>
+    <section><h2>مراجع مواصفات التركيب</h2><p>تختلف المواصفات بحسب الموديل. راجع <a href="https://www.bosch-home.co.uk/products/cooking-baking/cooker-hoods/installation-faq">إرشادات Bosch عن تركيب الشفاط والدكت</a> ودليل جهازك قبل التنفيذ؛ ذكر العلامة مرجع فني ولا يعني وكالة أو اعتماداً.</p></section>
+  <section><h2>تأسيس المسار ومراجعة المقاسات</h2><p>لأعمال المسار والوصلات راجع <a href="/services/exhaust-ducts">دكت شفاط وتأسيس مجاري الطرد</a>، واقرأ <a href="/blog/exhaust-duct-sizing">مقاس دكت شفاط المطبخ وتأثير الأكواع</a> قبل تجهيز الفتحة.</p></section></article>
 </Layout>
+<style>
+  .table-wrap { overflow-x: auto; border: 1px solid #cbd5e1; border-radius: 10px; background: white; }
+  table { width: 100%; border-collapse: collapse; min-width: 480px; }
+  caption { text-align: start; padding: 14px; font-weight: 700; }
+  th, td { text-align: start; padding: 14px; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+  thead { background: #eff6ff; }
+</style>

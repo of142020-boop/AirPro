@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import serviceData from '../data/services.json';
+import { getPageSeo } from '../lib/seo';
+import ComparisonTable from './ComparisonTable.astro';
+import type { ServiceContent } from '../types/content';
+interface Props { slug: string; }
+const services: ServiceContent[] = serviceData;
+const service = services.find(item => item.slug === Astro.props.slug);
+if (!service) throw new Error('Unknown service');
+const seo = getPageSeo(`/services/${service.slug}`);
+const pageUrl = Astro.site ? new URL(seo.path, Astro.site).href : undefined;
+const businessId = Astro.site ? new URL('/#business', Astro.site).href : undefined;
+const schema = pageUrl ? { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'LocalBusiness', '@id': businessId, name: 'إير برو | AirPro', url: Astro.site!.href, telephone: '+201101219418' },
+  { '@type': 'Service', '@id': `${pageUrl}#service`, name: service.title, description: service.description, serviceType: service.title, url: pageUrl, provider: { '@id': businessId }, mainEntityOfPage: pageUrl },
+  { '@type': 'FAQPage', '@id': `${pageUrl}#faq`, mainEntity: service.faq.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) }
+] } : undefined;
+---
+<Layout title={seo.title} description={seo.description}>
+  {schema && <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\u003c')} />}
+  <div class="hero"><div class="content">
+    <nav class="breadcrumbs" aria-label="مسار الصفحة"><a href="/">الرئيسية</a><span>›</span><a href="/services">الخدمات</a></nav>
+    <p class="eyebrow">إير برو | خدمات التأسيس والتركيب والصيانة</p>
+    <h1>{seo.h1}</h1><p>{service.description}</p>
+    <div class="actions"><a class="btn btn-primary" href="/contact">اطلب معاينة وعرض سعر</a><a class="btn btn-secondary" href="tel:+201101219418">اتصل: 01101219418</a></div>
+  </div></div>
+  <article class="content prose section">
+    <nav class="toc" aria-label="محتويات الخدمة">{service.sections.map((item,index) => <a href={`#section-${index}`}>{item.title}</a>)}<a href="#quote">تجهيز طلب السعر</a><a href="#questions">أسئلة شائعة</a></nav>
+    {service.sections.map((item,index) => <>
+      <section id={`section-${index}`}><h2>{item.title}</h2><p>{item.text}</p>
+        {item.subsections?.map(subsection => <><h3>{subsection.title}</h3><p>{subsection.text}</p></>)}
+        {!!item.bullets?.length && <ul>{item.bullets.map(text => <li>{text}</li>)}</ul>}
+      </section>
+      {index === 2 && <aside class="note"><p>هل تجهز هذا العمل في موقعك؟ أرسل الصور وبيانات الجهاز والمنطقة لنراجع نطاق التنفيذ وما يحتاج معاينة.</p><a class="btn btn-primary" href="https://wa.me/201101219418">أرسل تفاصيل المشروع على واتساب</a></aside>}
+    </>)}
+    {service.comparison && <section><h2>مقارنة تساعدك على تحديد الطلب</h2><ComparisonTable comparison={service.comparison} /></section>}
+    <section id="quote"><h2>ما المطلوب لتحديد نطاق العمل والتكلفة؟</h2><p>أرسل التفاصيل التالية لنراجع إمكانية تنفيذ الخدمة في موقعك، ثم نوضح ما يحتاج معاينة قبل تثبيت العرض.</p><ul>{service.quoteChecklist.map(text => <li>{text}</li>)}</ul><p>راجع بنود الخامات والأجور وموعد التنفيذ والاستثناءات وشروط أي ضمان مكتوب إن وُجد. يتحدد السعر بحسب النطاق المتفق عليه، ويؤكد الفريق التغطية وتكلفة الانتقال عند التواصل.</p></section>
+    <section id="questions"><h2>أسئلة عن {seo.primary}</h2>{service.faq.map(item => <details><summary>{item.question}</summary><p>{item.answer}</p></details>)}</section>
+    <section><h2>تابع تجهيز مشروعك</h2><p>هذه الخدمات والأدلة تتناول الأجزاء المرتبطة بطلبك:</p><ul>{seo.related.map(item => <li><a href={item.href}>{item.text}</a></li>)}</ul></section>
+    <div class="note"><p>جهّز الصور والمنطقة وبيانات الجهاز أو المخطط، وحدد المطلوب قبل الاتفاق على الموعد والخامات.</p><div class="actions"><a class="btn btn-primary" href="/contact">جهّز طلب المعاينة وعرض السعر</a><a class="btn btn-secondary" href="tel:+201101219418">اتصل بفريق إير برو</a></div></div>
+  </article>
+</Layout>

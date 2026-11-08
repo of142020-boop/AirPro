@@ -1,17 +1,20 @@
+require("dotenv").config({ path: require("path").join(__dirname, ".env") });
 const http = require('http');
 const { GoogleAdsApi } = require('google-ads-api');
 
 // Credentials from the user's .env file
 const client = new GoogleAdsApi({
-    client_id: 'YOUR_CLIENT_ID',
-    client_secret: 'YOUR_CLIENT_SECRET',
-    developer_token: 'YOUR_DEVELOPER_TOKEN'
+    client_id: process.env.GOOGLE_ADS_CLIENT_ID,
+    client_secret: process.env.GOOGLE_ADS_CLIENT_SECRET,
+    developer_token: process.env.GOOGLE_ADS_DEVELOPER_TOKEN
 });
 
-// Using the MANAGER ID directly as it successfully bypassed the permission error!
+const customerId = process.env.GOOGLE_ADS_CUSTOMER_ID || 'YOUR_CUSTOMER_ID';
+
+// Use the manager customer ID configured in the local .env file.
 const customer = client.Customer({
-    customer_id: 'YOUR_CUSTOMER_ID',
-    refresh_token: 'YOUR_REFRESH_TOKEN'
+    customer_id: customerId,
+    refresh_token: process.env.GOOGLE_ADS_REFRESH_TOKEN
 });
 
 const htmlPage = `
@@ -38,7 +41,7 @@ const htmlPage = `
 <body>
     <div class="container">
         <h1>📊 مخطط إعلانات جوجل (الأرقام الحقيقية)</h1>
-        <p style="text-align:center; color:#64748b; margin-bottom:30px;">متصل بنجاح مع حسابك Manager ID: 1870866513</p>
+        <p style="text-align:center; color:#64748b; margin-bottom:30px;">متصل بنجاح مع حساب Google Ads المحلي.</p>
         
         <div class="search-box">
             <input type="text" id="keyword" placeholder="اكتب الكلمة هنا للبحث بحرية..." onkeypress="if(event.key==='Enter') search()">
@@ -137,7 +140,7 @@ const server = http.createServer(async (req, res) => {
         try {
             // Call Google Ads API via the official SDK
             const results = await customer.keywordPlanIdeas.generateKeywordIdeas({
-                customer_id: 'YOUR_CUSTOMER_ID',
+                customer_id: customerId,
                 keyword_seed: { keywords: [q] },
                 geo_target_constants: ['geoTargetConstants/2818'], // Egypt
                 language: 'languageConstants/1019', // Arabic

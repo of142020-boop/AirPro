@@ -1,0 +1,8 @@
+---
+import { getPageSeo } from '../lib/seo';
+interface Props { path: string; }
+const seo = getPageSeo(Astro.props.path);
+const pageUrl = Astro.site ? new URL(seo.path, Astro.site).href : undefined;
+const schema = pageUrl ? { '@context': 'https://schema.org', '@type': 'Article', '@id': `${pageUrl}#article`, headline: seo.h1, description: seo.description, inLanguage: 'ar-EG', mainEntityOfPage: pageUrl, publisher: { '@type': 'Organization', name: 'إير برو | AirPro', url: Astro.site!.href } } : undefined;
+---
+{schema && <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\u003c')} />}

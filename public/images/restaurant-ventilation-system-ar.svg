@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" role="img" aria-labelledby="title desc">
+<title id="title">أجزاء نظام تهوية مطبخ المطعم</title><desc id="desc">مخطط تعليمي يربط هود التقاط الأبخرة بدكت الطرد والبلاور والمخرج، مع مسار مستقل لهواء التعويض إلى المطبخ.</desc>
+<defs><marker id="out" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#c2410c"/></marker><marker id="in" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#1d4ed8"/></marker></defs>
+<rect width="960" height="380" rx="18" fill="#f1f5f9"/>
+<g font-family="Cairo,Arial,sans-serif" text-anchor="middle" fill="#0f172a">
+<text x="480" y="45" font-size="24" font-weight="700">علاقة المكونات ومسار الهواء</text>
+<g fill="#fff" stroke="#94a3b8" stroke-width="2"><rect x="735" y="100" width="180" height="105" rx="12"/><rect x="505" y="100" width="180" height="105" rx="12"/><rect x="275" y="100" width="180" height="105" rx="12"/><rect x="45" y="100" width="180" height="105" rx="12"/></g>
+<g font-size="23" font-weight="700"><text x="825" y="145">هود المطعم</text><text x="595" y="145">دكت الطرد</text><text x="365" y="145">البلاور</text><text x="135" y="145">مخرج الهواء</text></g>
+<g font-size="17" fill="#475569"><text x="825" y="178">التقاط الأبخرة</text><text x="595" y="178">مسار وخدمة</text><text x="365" y="178">تدفق وضغط</text><text x="135" y="178">موضع مناسب</text></g>
+<g stroke="#c2410c" stroke-width="5" marker-end="url(#out)"><path d="M730 154H695"/><path d="M500 154H465"/><path d="M270 154H235"/></g>
+<path d="M140 286H825V225" fill="none" stroke="#1d4ed8" stroke-width="5" marker-end="url(#in)"/>
+<rect x="305" y="257" width="360" height="53" rx="12" fill="#dbeafe"/><text x="485" y="291" font-size="22" fill="#1e3a8a">هواء التعويض إلى المطبخ</text>
+<text x="480" y="350" font-size="17" fill="#475569">رسم توضيحي للعلاقة بين الأجزاء، وليس مخطط تنفيذ أو تحديد مقاسات</text>
+</g></svg>

@@ -1,5 +1,3 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
-
-// https://astro.build/config
-export default defineConfig({});
+import { site } from './config/launch.mjs';
+export default defineConfig({ site, trailingSlash: 'never' });

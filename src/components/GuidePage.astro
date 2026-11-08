@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ArticleSchema from './ArticleSchema.astro';
+import ComparisonTable from './ComparisonTable.astro';
+import guideData from '../data/guides.json';
+import { getPageSeo } from '../lib/seo';
+import type { GuideContent } from '../types/content';
+interface Props { slug: string; }
+const guides: GuideContent[] = guideData;
+const guide = guides.find(item => item.slug === Astro.props.slug);
+if (!guide) throw new Error('Unknown guide');
+const seo = getPageSeo(`/blog/${guide.slug}`);
+---
+<Layout title={seo.title} description={seo.description}>
+<ArticleSchema path={seo.path} />
+<div class="hero"><div class="content"><nav class="breadcrumbs" aria-label="مسار الصفحة"><a href="/">الرئيسية</a><span>›</span><a href="/blog">دليل الشفاطات والتهوية</a></nav><p class="eyebrow">دليل التجهيز والاختيار | إير برو</p><h1>{seo.h1}</h1><p>{guide.lead}</p></div></div>
+<article class="content prose section">
+{guide.illustration && <figure class="technical-figure"><img src={guide.illustration.src} alt={guide.illustration.alt} width={guide.illustration.width} height={guide.illustration.height} loading="lazy" decoding="async" /><figcaption>{guide.illustration.caption}</figcaption></figure>}
+<nav class="toc" aria-label="محتويات الدليل">{guide.sections.map((section,index) => <a href={`#section-${index}`}>{section.title}</a>)}</nav>
+{guide.sections.map((section,index) => <section id={`section-${index}`}><h2>{section.title}</h2><p>{section.text}</p>{!!section.bullets?.length && <ul>{section.bullets.map(text => <li>{text}</li>)}</ul>}</section>)}
+{guide.comparison && <section><h2>مقارنة تساعدك على مراجعة الاختيار</h2><ComparisonTable comparison={guide.comparison} /></section>}
+<section><h2>خطوتك التالية حسب حالة الموقع</h2><p>إذا كانت البيانات متاحة، راجع الخدمة أو الدليل المرتبط بطلبك:</p><ul>{seo.related.map(link => <li><a href={link.href}>{link.text}</a></li>)}</ul><div class="note"><p>جهز صور المكان والمنطقة وموديل الجهاز أو مخطط الشبكة، ثم اطلب مراجعة نطاق العمل وما يحتاج معاينة.</p><a class="btn btn-primary" href="/contact">جهّز طلب المعاينة</a></div></section>
+<section><h2>مراجع فنية للمراجعة</h2><p>المراجع توضح المبادئ؛ تعليمات المعدة ومتطلبات الموقع والتصميم هي المرجع الخاص بالتنفيذ. ذكر المصنع لا يعني وكالة أو اعتماداً.</p><ul>{guide.references.map(link => <li><a href={link.href}>{link.text}</a></li>)}</ul></section>
+</article>
+</Layout>
